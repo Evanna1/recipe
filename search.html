@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索结果</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        body {
+            background-color: #f4f7fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* h1样式 */
+        h1 {
+            text-decoration: none !important; /* 去掉下划线 */
+            text-align: center; /* 文本居中 */
+            font-size: 4rem; /* 字体大小 */
+            color: #FFF; /* 白色字体 */
+            padding: 40px 0; /* 内边距 */
+            margin: 0; /* 外边距 */
+            background: linear-gradient(135deg, #FFC0CB, #FFEB3B); /* 柔和渐变背景：浅粉到浅黄 */
+            border-radius: 25px; /* 圆角 */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* 柔和阴影 */
+            position: relative; /* 定位 */
+            font-family: 'Pacifico', cursive, sans-serif; /* 更换为手写风格的花体字 */
+            letter-spacing: 0.2em; /* 增加字母间距 */
+            word-spacing: 0.5em; /* 增加单词间距 */
+            animation: fadeIn 1s ease; /* 渐变动画 */
+        }
+
+        /* 渐变出现动画 */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* 分隔线 */
+        h1::after {
+            content: "";
+            display: block;
+            width: 90%; /* 更加宽松的分隔线 */
+            height: 2px;
+            background-color: #FFF; /* 分隔线颜色 */
+            margin: 15px auto 0; /* 外边距 */
+            border-radius: 10px; /* 圆角分隔线 */
+        }
+
+        /* 悬浮效果 */
+        h1:hover {
+            transform: scale(1.05); /* 鼠标悬浮时微微放大 */
+            transition: transform 0.3s ease; /* 平滑过渡 */
+        }
+
+        #search-description {
+            text-align: left;  /* 设置文本左对齐 */
+            font-size: 1.5rem;
+            margin-top: 20px;
+            margin-left: 20px;  /* 给文本一点左边距，避免紧贴边缘 */
+            color: #f4b400;
+        }
+
+        /* 菜谱列表 */
+        #recipe-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* 每个菜谱项 */
+        .recipe-item {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            border: 2px solid #f8c8d1; /* 柔和的粉色边框 */
+        }
+
+        /* 悬停效果：让菜谱项有轻微的浮动和阴影 */
+        .recipe-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 菜谱图片 */
+        .recipe-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* 修改后的菜谱标题样式 */
+        .recipe-item h2 {
+            text-decoration: none !important; /* 去掉链接下划线 */
+            font-family: 'Pacifico', cursive; /* 活泼的手写风格字体 */
+            color: #fead6f; 
+            padding: 10px 20px;
+            margin: 0;
+            text-align: center;
+            position: relative;
+            font-size: 1.5rem; /* 字体大小 */
+            z-index: 2;
+            /* 去掉阴影效果 */
+            text-shadow: none;
+            border-radius: 10px;
+        }
+
+        /* 悬停效果：添加浅蓝色背景和增强阴影 */
+        .recipe-item h2:hover {
+            transform: translateY(-5px); /* 小幅上浮 */
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* 增强阴影 */
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 215, 0, 0.8); /* 悬停时的阴影 */
+            background-color: #f2d4c0; /* 浅粉色背景 */
+            border-radius: 15px; /* 圆角效果 */
+        }
+
+        /* 让每个标题的颜色和背景在鼠标悬停时更加丰富 */
+        .recipe-item a {
+            text-decoration: none !important; /* 去掉默认的下划线 */
+            color: inherit; /* 保持标题的颜色 */
+        }
+
+        .recipe-item h2:hover a {
+            color: #5b9bd5; /* 悬停时浅蓝色 */
+        }
+
+
+       /* 翻页按钮样式 */
+       #pagination {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* 按钮基础样式 */
+        .page-button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: 1px solid #9C7A4E; /* 深金棕色边框 */
+            border-radius: 25px; /* 圆润的边角 */
+            cursor: pointer;
+            background-color: #fff; /* 背景为白色 */
+            color: #9C7A4E; /* 按钮文字为深金棕色 */
+            font-weight: bold; /* 加粗字体 */
+            font-size: 16px; /* 适当的字体大小 */
+            transition: all 0.3s ease; /* 平滑过渡效果 */
+        }
+
+        .page-wz{
+            color: #9C7A4E; /* 按钮文字为深金棕色 */
+        }
+
+        /* 按钮悬停效果 */
+        .page-button:hover {
+            background-color: #C29F73; /* 暖黄棕色背景 */
+            color: #fff; /* 字体变白 */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 增加阴影 */
+            transform: translateY(-3px); /* 按钮轻微浮动 */
+        }
+
+        /* 页码跳转输入框样式 */
+        #page-jump {
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-left: 10px;
+            width: 60px;
+            text-align: center;
+            border-radius: 15px; /* 圆角效果 */
+            border: 1px solid #9C7A4E; /* 与按钮相同的深金棕色边框 */
+            background-color: #fff; /* 白色背景 */
+            color: #9C7A4E; /* 字体深金棕色 */
+            transition: all 0.3s ease; /* 平滑过渡效果 */
+        }
+
+        /* 输入框悬停效果 */
+        #page-jump:hover {
+            background-color: #C29F73; /* 暖黄棕色背景 */
+            color: #fff; /* 字体变为白色 */
+            border-color: #C29F73; /* 边框颜色变为暖黄棕色 */
+        }
+
+        /* 输入框聚焦时效果 */
+        #page-jump:focus {
+            outline: none; /* 去掉默认的焦点轮廓 */
+            box-shadow: 0 0 5px rgba(156, 122, 78, 0.7); /* 聚焦时的深金棕色光环效果 */
+        }
+
+        /* 点赞样式 */
+        .like-container {
+            display: flex;
+            align-items: center;
+            gap: 1px; /* 减小间距，使大拇指和点赞数更靠近 */
+        }
+
+        .like-button {
+            padding: 5px 8px; /* 可以适当调整按钮内的间距 */
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 19px; /* 增加字体大小使图标更清晰 */
+        }
+
+        .like-button:hover {
+            transform: scale(1.5); /* 悬浮时轻微放大，增加交互感 */
+        }
+
+        .like-count {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>搜索结果</h1>
+
+    <!-- 显示搜索描述的区域 -->
+    <div id="search-description"></div>
+
+    <div id="recipe-list"></div>
+
+    <!-- 翻页按钮 -->
+    <div id="pagination">
+        <button id="prev-page" class="page-button">上一页</button>
+        <span class="page-wz">第 <input type="number" id="page-jump" value="1" min="1" /> 页</span>
+        <button id="next-page" class="page-button">下一页</button>
+        <button id="go-to-page" class="page-button">跳转</button>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQuery = urlParams.get('query');
+
+        let recipes = [];
+        let currentPage = 1;
+        const recipesPerPage = 10;
+
+        // 解析 CSV 数据
+        function parseRecipes(data) {
+            return data.map(row => {
+                // 解析 category 字段（假设它是一个 JSON 字符串）
+                let category = '';
+                try {
+                    const categoryObj = JSON.parse(row['caipu.category_1_x_caipu_id']);  // 解析 JSON 字符串
+                    const categoryId = row['caipu.id'];  // 使用菜谱的 ID 来选择相应的 category
+
+                    // 使用 caipu.id 动态选择 category
+                    category = categoryObj[categoryId]?.["category_1.title"] || '未知类别';  // 获取 'category_1.title'
+                } catch (e) {
+                    console.error('解析 category 字段出错:', e);
+                    category = '未知类别';  // 如果解析失败，使用默认值
+                }
+
+                return {
+                    id: row['caipu.id'],  // 菜谱 ID
+                    time: row['caipu.shiyong'],  // 推荐餐时
+                    title: row['caipu.title'],  // 菜名
+                    gongyi: row['caipu.gongyi'],  // 工艺
+                    kouwei: row['caipu.kouwei'],  // 口味
+                    zuofa: row['caipu.zuofa'],  // 做法
+                    category: category,  // 类别（如 "粤菜"）
+                    ingredients: row['caipu.zhuliao'] + ', ' + row['caipu.fuliao'],  // 主要原料和辅料
+                    image_url: "images/" + row['caipu.title'] + ".jpg",
+                    tiaoliao: row['caipu.tiaoliao'],
+                    zhuliao: row['caipu.zhuliao'],
+                };
+            });
+        }
+
+        // 读取 CSV 文件并解析
+        function loadCSV(page) {
+            const filePath = `${page}.csv`;  // 动态根据页码加载 CSV 文件
+            return new Promise((resolve, reject) => {
+                Papa.parse(filePath, {
+                    download: true, // 启用下载模式
+                    header: true, // 以 CSV 文件的第一行作为字段名
+                    skipEmptyLines: true,
+                    complete: function(results) {
+                        const parsedRecipes = parseRecipes(results.data);
+                        resolve(parsedRecipes);  // 解析完成后传递解析后的数据
+                    },
+                    error: function(error) {
+                        reject(error);  // 解析出错时处理
+                    }
+                });
+            });
+        }
+
+        function loadAndStoreRecipes(startPage, endPage) {
+            const loadPromises = [];
+            for (let page = startPage; page <= endPage; page++) {
+                loadPromises.push(loadCSV(page).then(parsedRecipes => {
+                    // 存储所有菜谱数据
+                    recipes.push(...parsedRecipes);
+                }));
+            }
+
+            // 等待所有页的数据加载完成, 执行渲染
+            Promise.all(loadPromises)
+                .then(() => {
+                    console.log('所有数据加载完毕');
+                    renderSearchResults();
+                })
+                .catch(error => {
+                    console.error('加载数据时发生错误:', error);
+                });
+        }
+
+        // 调用加载数据
+        loadAndStoreRecipes(1, 5);
+
+        // 渲染搜索结果
+        function renderSearchResults() {
+            const searchQuery = getQueryParams().toLowerCase();
+            const filteredRecipes = recipes.filter(recipe => {
+                const titleMatch = recipe.title.toLowerCase().includes(searchQuery);
+                const ingredientsMatch = recipe.ingredients.toLowerCase().includes(searchQuery);
+                return titleMatch || ingredientsMatch;
+            });
+
+            // 渲染与搜索相关的说明文字
+            renderSearchDescription(searchQuery);
+
+            const recipeList = document.getElementById('recipe-list');
+            recipeList.innerHTML = '';  // 清空现有菜谱
+
+            // 分页处理：计算当前页显示的菜谱
+            const startIndex = (currentPage - 1) * recipesPerPage;
+            const endIndex = startIndex + recipesPerPage;
+            const recipesToShow = filteredRecipes.slice(startIndex, endIndex);
+
+            // 渲染当前页菜谱
+            recipesToShow.forEach(recipe => {
+                const recipeItem = document.createElement('div');
+                recipeItem.classList.add('recipe-item');
+                const recipeLikes = getRecipeLikes(recipe.id); 
+                recipeItem.innerHTML = `
+                    <a href="details.html?id=${recipe.id}">
+                        <img src="${recipe.image_url}" alt="${recipe.title}" />
+                        <h2>${recipe.title}</h2>
+                    </a>
+                    <div class="like-container">
+                        <button class="like-button" data-id="${recipe.id}"> 👍 </button>
+                        <span class="like-count">${recipeLikes}</span>
+                    </div>
+                `;
+
+                // 给点赞按钮添加点击事件
+                recipeItem.querySelector('.like-button').addEventListener('click', function() {
+                    toggleLike(recipe.id); // 点赞/取消点赞
+                    renderSearchResults(); // 重新渲染菜谱列表
+                });
+                recipeList.appendChild(recipeItem);
+                
+            });
+
+            // 更新分页按钮的状态
+            updatePagination(filteredRecipes.length);
+        }
+
+        // 更新分页按钮
+        function updatePagination(totalRecipes) {
+            const totalPages = Math.ceil(totalRecipes / recipesPerPage);
+            document.getElementById('prev-page').disabled = currentPage === 1;
+            document.getElementById('next-page').disabled = currentPage === totalPages;
+            document.getElementById('page-jump').value = currentPage;
+        }
+
+        // 获取 URL 中的查询参数
+        function getQueryParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('query') || '';
+        }
+
+        // 翻页按钮事件
+        document.getElementById('prev-page').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                renderSearchResults();
+            }
+        });
+
+        document.getElementById('next-page').addEventListener('click', () => {
+            const totalPages = Math.ceil(recipes.length / recipesPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderSearchResults();
+            }
+        });
+
+        // 跳转页码
+        document.getElementById('go-to-page').addEventListener('click', () => {
+            const pageNumber = parseInt(document.getElementById('page-jump').value);
+            if (pageNumber >= 1 && pageNumber <= Math.ceil(recipes.length / recipesPerPage)) {
+                currentPage = pageNumber;
+                renderSearchResults();
+            } else {
+                alert("页码无效！");
+            }
+        });
+
+        // 渲染搜索结果的描述文字
+        function renderSearchDescription(query) {
+            const descriptionContainer = document.getElementById('search-description');
+            descriptionContainer.innerHTML = `与“<strong>${query}</strong>”相关的菜谱：`;
+        }
+
+        // 获取菜品的点赞数，默认值为 0
+        function getRecipeLikes(recipeId) {
+            const likes = localStorage.getItem(`likes_${recipeId}`);
+            return likes ? parseInt(likes) : 0;
+        }
+
+        // 增加或减少点赞数
+        function toggleLike(recipeId) {
+            const currentLikes = getRecipeLikes(recipeId);
+            const newLikes = currentLikes + 1;  // 点赞数 +1
+            localStorage.setItem(`likes_${recipeId}`, newLikes);  // 保存更新后的点赞数
+        }
+
+    </script>
+</body>
+</html>

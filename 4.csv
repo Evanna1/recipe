@@ -1,0 +1,3702 @@
+caipu.id,caipu.ts,caipu.title,caipu.gongyi,caipu.kouwei,caipu.zuofa,caipu.xiangke_shiwu,caipu.shiyong,caipu.kougan,caipu.leibie,caipu.zhuliao,caipu.fuliao,caipu.tiaoliao,caipu.tuijian_zhishu,caipu.mala_zhishu,caipu.yingyang_zhishu,caipu.nanyi_zhishu,caipu.shijian_zhishu,caipu.jianfei_zhishu,caipu.yangyan_zhishu,caipu.category_1_x_caipu_id,caipu.caipu_x_yingyang_chengfen_id
+61,"2018-06-22 01:52:39",烩虾仁,烩,家常味,1.将虾仁去沙腺洗净，加入盐、料酒稍腌；2.用开水将虾仁、豌豆焯好；3.锅放少量油烧热，放葱米、姜米爆香，加高汤，投入虾仁、豌豆烧开；4.放味精、盐、料酒，水淀粉勾玻璃芡，出锅淋香油。,"虾仁 虾忌与某些水果同吃。虾含有比较丰富的蛋白质和钙等营养物质。如果把它们与含有鞣酸的水果，如葡萄、石榴、山楂、柿子等同食，不仅会降低蛋白质的营养价值，而且鞣酸和钙离子结合形成不溶性结合物刺激肠胃，引起人体不适，出现呕吐、头晕、恶心和腹痛腹泻等症状。海鲜与这些水果同吃至少应间隔2小时。","中餐、晚餐",,苏菜,虾仁300克,豌豆100克,"大葱10克 姜5克 料酒5克 盐3克 味精1克 植物油30克 淀粉(豌豆)10克 香油2克",8,0,6,8,8,2,0,"{
+    ""61"": {
+        ""category_1_x_caipu.id"": 61,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1529"": {
+        ""caipu_x_yingyang_chengfen.id"": 1529,
+        ""yingyang_chengfen.id"": 179,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:55"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1575毫克""
+    },
+    ""1531"": {
+        ""caipu_x_yingyang_chengfen.id"": 1531,
+        ""yingyang_chengfen.id"": 181,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:55"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.02毫克""
+    },
+    ""1528"": {
+        ""caipu_x_yingyang_chengfen.id"": 1528,
+        ""yingyang_chengfen.id"": 1202,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:48"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""3.4克""
+    },
+    ""1523"": {
+        ""caipu_x_yingyang_chengfen.id"": 1523,
+        ""yingyang_chengfen.id"": 1523,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""758.09千卡""
+    },
+    ""1524"": {
+        ""caipu_x_yingyang_chengfen.id"": 1524,
+        ""yingyang_chengfen.id"": 1524,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""139.19克""
+    },
+    ""1525"": {
+        ""caipu_x_yingyang_chengfen.id"": 1525,
+        ""yingyang_chengfen.id"": 1525,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""10.16克""
+    },
+    ""1526"": {
+        ""caipu_x_yingyang_chengfen.id"": 1526,
+        ""yingyang_chengfen.id"": 1526,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""31.06克""
+    },
+    ""1527"": {
+        ""caipu_x_yingyang_chengfen.id"": 1527,
+        ""yingyang_chengfen.id"": 1527,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""83.96微克""
+    },
+    ""1530"": {
+        ""caipu_x_yingyang_chengfen.id"": 1530,
+        ""yingyang_chengfen.id"": 1530,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""102.5微克""
+    },
+    ""1532"": {
+        ""caipu_x_yingyang_chengfen.id"": 1532,
+        ""yingyang_chengfen.id"": 1532,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""14.5毫克""
+    },
+    ""1533"": {
+        ""caipu_x_yingyang_chengfen.id"": 1533,
+        ""yingyang_chengfen.id"": 1533,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""6.99毫克""
+    },
+    ""1534"": {
+        ""caipu_x_yingyang_chengfen.id"": 1534,
+        ""yingyang_chengfen.id"": 1534,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""234.9微克""
+    },
+    ""1535"": {
+        ""caipu_x_yingyang_chengfen.id"": 1535,
+        ""yingyang_chengfen.id"": 1535,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.45毫克""
+    },
+    ""1536"": {
+        ""caipu_x_yingyang_chengfen.id"": 1536,
+        ""yingyang_chengfen.id"": 1536,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.47毫克""
+    },
+    ""1537"": {
+        ""caipu_x_yingyang_chengfen.id"": 1537,
+        ""yingyang_chengfen.id"": 1537,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""17.4毫克""
+    },
+    ""1538"": {
+        ""caipu_x_yingyang_chengfen.id"": 1538,
+        ""yingyang_chengfen.id"": 1538,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""1695.71毫克""
+    },
+    ""1539"": {
+        ""caipu_x_yingyang_chengfen.id"": 1539,
+        ""yingyang_chengfen.id"": 1539,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""2129.79毫克""
+    },
+    ""1540"": {
+        ""caipu_x_yingyang_chengfen.id"": 1540,
+        ""yingyang_chengfen.id"": 1540,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""2017.51毫克""
+    },
+    ""1541"": {
+        ""caipu_x_yingyang_chengfen.id"": 1541,
+        ""yingyang_chengfen.id"": 1541,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""15939.8毫克""
+    },
+    ""1542"": {
+        ""caipu_x_yingyang_chengfen.id"": 1542,
+        ""yingyang_chengfen.id"": 1542,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.9微克""
+    },
+    ""1543"": {
+        ""caipu_x_yingyang_chengfen.id"": 1543,
+        ""yingyang_chengfen.id"": 1543,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""755.33毫克""
+    },
+    ""1544"": {
+        ""caipu_x_yingyang_chengfen.id"": 1544,
+        ""yingyang_chengfen.id"": 1544,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""35.05毫克""
+    },
+    ""1545"": {
+        ""caipu_x_yingyang_chengfen.id"": 1545,
+        ""yingyang_chengfen.id"": 1545,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""12.83毫克""
+    },
+    ""1546"": {
+        ""caipu_x_yingyang_chengfen.id"": 1546,
+        ""yingyang_chengfen.id"": 1546,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""228.03微克""
+    },
+    ""1547"": {
+        ""caipu_x_yingyang_chengfen.id"": 1547,
+        ""yingyang_chengfen.id"": 1547,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""7.23毫克""
+    },
+    ""1548"": {
+        ""caipu_x_yingyang_chengfen.id"": 1548,
+        ""yingyang_chengfen.id"": 1548,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""3.2毫克""
+    }
+}"
+62,"2018-06-22 01:52:43",金蒜银鱼蒸菜心,清蒸,蒜香味,1.银鱼洗净挤净水分，大蒜切末，红尖椒切碎，芥蓝和小白菜用热水烫一下码放在盘子中备用；2.坐锅点火倒入油，将蒜末微火炒香，放入银鱼，加盐、酱油、蚝油、白糖、适量水调味炒匀，浇在菜上，入蒸锅蒸3分钟，出锅撒葱花、红尖椒即可。,,早餐、中餐、晚餐,鲜嫩香软，脆爽清新。,"苏菜 高脂血症食谱 营养不良食谱 补虚养身食谱 脾调养食谱",银鱼400克,"芥蓝100克 小白菜100克","大蒜（白皮）20克 辣椒(红、尖)10克 小葱5克 盐3克 蚝油5克 白砂糖5克 酱油5克 植物油15克 淀粉(豌豆)3克",7,2,8,5,6,0,0,"{
+    ""62"": {
+        ""category_1_x_caipu.id"": 62,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1561"": {
+        ""caipu_x_yingyang_chengfen.id"": 1561,
+        ""yingyang_chengfen.id"": 13,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:26"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.18毫克""
+    },
+    ""1572"": {
+        ""caipu_x_yingyang_chengfen.id"": 1572,
+        ""yingyang_chengfen.id"": 223,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:48:01"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.26毫克""
+    },
+    ""1560"": {
+        ""caipu_x_yingyang_chengfen.id"": 1560,
+        ""yingyang_chengfen.id"": 823,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:50:45"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.41毫克""
+    },
+    ""1573"": {
+        ""caipu_x_yingyang_chengfen.id"": 1573,
+        ""yingyang_chengfen.id"": 1040,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:24"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""1.24毫克""
+    },
+    ""1549"": {
+        ""caipu_x_yingyang_chengfen.id"": 1549,
+        ""yingyang_chengfen.id"": 1549,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""516.98千卡""
+    },
+    ""1550"": {
+        ""caipu_x_yingyang_chengfen.id"": 1550,
+        ""yingyang_chengfen.id"": 1550,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""74.51克""
+    },
+    ""1551"": {
+        ""caipu_x_yingyang_chengfen.id"": 1551,
+        ""yingyang_chengfen.id"": 1551,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""16.8克""
+    },
+    ""1552"": {
+        ""caipu_x_yingyang_chengfen.id"": 1552,
+        ""yingyang_chengfen.id"": 1552,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""20克""
+    },
+    ""1553"": {
+        ""caipu_x_yingyang_chengfen.id"": 1553,
+        ""yingyang_chengfen.id"": 1553,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""44.88微克""
+    },
+    ""1554"": {
+        ""caipu_x_yingyang_chengfen.id"": 1554,
+        ""yingyang_chengfen.id"": 1554,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""3.33克""
+    },
+    ""1555"": {
+        ""caipu_x_yingyang_chengfen.id"": 1555,
+        ""yingyang_chengfen.id"": 1555,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1444毫克""
+    },
+    ""1556"": {
+        ""caipu_x_yingyang_chengfen.id"": 1556,
+        ""yingyang_chengfen.id"": 1556,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""886.2微克""
+    },
+    ""1557"": {
+        ""caipu_x_yingyang_chengfen.id"": 1557,
+        ""yingyang_chengfen.id"": 1557,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""120.85毫克""
+    },
+    ""1558"": {
+        ""caipu_x_yingyang_chengfen.id"": 1558,
+        ""yingyang_chengfen.id"": 1558,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""9.38毫克""
+    },
+    ""1559"": {
+        ""caipu_x_yingyang_chengfen.id"": 1559,
+        ""yingyang_chengfen.id"": 1559,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""5317微克""
+    },
+    ""1562"": {
+        ""caipu_x_yingyang_chengfen.id"": 1562,
+        ""yingyang_chengfen.id"": 1562,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""2.81毫克""
+    },
+    ""1563"": {
+        ""caipu_x_yingyang_chengfen.id"": 1563,
+        ""yingyang_chengfen.id"": 1563,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""422.18毫克""
+    },
+    ""1564"": {
+        ""caipu_x_yingyang_chengfen.id"": 1564,
+        ""yingyang_chengfen.id"": 1564,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""219.1毫克""
+    },
+    ""1565"": {
+        ""caipu_x_yingyang_chengfen.id"": 1565,
+        ""yingyang_chengfen.id"": 1565,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1376.06毫克""
+    },
+    ""1566"": {
+        ""caipu_x_yingyang_chengfen.id"": 1566,
+        ""yingyang_chengfen.id"": 1566,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""1630.4毫克""
+    },
+    ""1567"": {
+        ""caipu_x_yingyang_chengfen.id"": 1567,
+        ""yingyang_chengfen.id"": 1567,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""10.12微克""
+    },
+    ""1568"": {
+        ""caipu_x_yingyang_chengfen.id"": 1568,
+        ""yingyang_chengfen.id"": 1568,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""150.83毫克""
+    },
+    ""1569"": {
+        ""caipu_x_yingyang_chengfen.id"": 1569,
+        ""yingyang_chengfen.id"": 1569,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""8.49毫克""
+    },
+    ""1570"": {
+        ""caipu_x_yingyang_chengfen.id"": 1570,
+        ""yingyang_chengfen.id"": 1570,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""2.75毫克""
+    },
+    ""1571"": {
+        ""caipu_x_yingyang_chengfen.id"": 1571,
+        ""yingyang_chengfen.id"": 1571,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""41.17微克""
+    }
+}"
+63,"2018-06-22 01:52:44",鲃肺汤,汆,咸鲜味,"1.香菇去蒂，洗净，切片；2.豌豆苗择洗干净，切段；3.葱去根须，洗净，切末；4.熟火腿切片；5.春笋去皮，洗净，煮熟，切片；6.将?鱼（鲶鱼）脊背向外放在砧板上，左手捏住鱼腹的边皮，用刀把鱼皮划破，然后向外平推除去鱼皮，取出鱼肝，摘去胆洗净；7.再挖去内脏，从胸鳍处下刀，沿脊骨两侧平批至尾，取下两片鱼肉，放清水中撕去粘膜，洗净血污；8.将鱼肉、鱼肝分别片成两片，放入碗中，加精盐少许拌和后，滗去水，洗净，放入碗内，加精盐2 克、葱末、料酒5 克拌和。9.炒锅置旺火上，舀入鸡清汤750毫升烧沸，将鱼片，鱼肝放入，随即加料酒20克、精盐5 克烧沸，撇去浮沫；10.再放入火腿片、笋片、香菇片、豌豆苗，加味精，烧沸后，盛入汤碗中，淋入熟猪油，撒上胡椒粉（白胡椒粉）即成。","鲶鱼 鲇鱼不宜与牛羊油、牛肝、鹿肉、野猪肉、野鸡、中药荆芥同食。",中餐、晚餐,此菜柔滑细嫩，汤清味鲜，风味独特。,"苏菜 消化不良食谱 产后调理食谱 老人食谱 滋阴食谱",鲶鱼500克,"香菇（鲜）10克 豌豆苗5克 火腿15克 春笋10克","味精1克 盐5克 大葱5克 胡椒粉1克 料酒25克 猪油（炼制）15克",7,0,8,5,5,6,5,"{
+    ""63"": {
+        ""category_1_x_caipu.id"": 63,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1587"": {
+        ""caipu_x_yingyang_chengfen.id"": 1587,
+        ""yingyang_chengfen.id"": 13,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:26"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.18毫克""
+    },
+    ""1582"": {
+        ""caipu_x_yingyang_chengfen.id"": 1582,
+        ""yingyang_chengfen.id"": 181,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:55"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.02毫克""
+    },
+    ""1598"": {
+        ""caipu_x_yingyang_chengfen.id"": 1598,
+        ""yingyang_chengfen.id"": 399,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:15"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.51毫克""
+    },
+    ""1599"": {
+        ""caipu_x_yingyang_chengfen.id"": 1599,
+        ""yingyang_chengfen.id"": 452,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:27"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.34毫克""
+    },
+    ""1586"": {
+        ""caipu_x_yingyang_chengfen.id"": 1586,
+        ""yingyang_chengfen.id"": 1208,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:48"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.55毫克""
+    },
+    ""1574"": {
+        ""caipu_x_yingyang_chengfen.id"": 1574,
+        ""yingyang_chengfen.id"": 1574,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""674.7千卡""
+    },
+    ""1575"": {
+        ""caipu_x_yingyang_chengfen.id"": 1575,
+        ""yingyang_chengfen.id"": 1575,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""90.06克""
+    },
+    ""1576"": {
+        ""caipu_x_yingyang_chengfen.id"": 1576,
+        ""yingyang_chengfen.id"": 1576,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""34.07克""
+    },
+    ""1577"": {
+        ""caipu_x_yingyang_chengfen.id"": 1577,
+        ""yingyang_chengfen.id"": 1577,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""2.87克""
+    },
+    ""1578"": {
+        ""caipu_x_yingyang_chengfen.id"": 1578,
+        ""yingyang_chengfen.id"": 1578,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""8.78微克""
+    },
+    ""1579"": {
+        ""caipu_x_yingyang_chengfen.id"": 1579,
+        ""yingyang_chengfen.id"": 1579,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.85克""
+    },
+    ""1580"": {
+        ""caipu_x_yingyang_chengfen.id"": 1580,
+        ""yingyang_chengfen.id"": 1580,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""834.8毫克""
+    },
+    ""1581"": {
+        ""caipu_x_yingyang_chengfen.id"": 1581,
+        ""yingyang_chengfen.id"": 1581,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""34.35微克""
+    },
+    ""1583"": {
+        ""caipu_x_yingyang_chengfen.id"": 1583,
+        ""yingyang_chengfen.id"": 1583,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""4.1毫克""
+    },
+    ""1584"": {
+        ""caipu_x_yingyang_chengfen.id"": 1584,
+        ""yingyang_chengfen.id"": 1584,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""3.68毫克""
+    },
+    ""1585"": {
+        ""caipu_x_yingyang_chengfen.id"": 1585,
+        ""yingyang_chengfen.id"": 1585,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""140.15微克""
+    },
+    ""1588"": {
+        ""caipu_x_yingyang_chengfen.id"": 1588,
+        ""yingyang_chengfen.id"": 1588,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""13.67毫克""
+    },
+    ""1589"": {
+        ""caipu_x_yingyang_chengfen.id"": 1589,
+        ""yingyang_chengfen.id"": 1589,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""219.17毫克""
+    },
+    ""1590"": {
+        ""caipu_x_yingyang_chengfen.id"": 1590,
+        ""yingyang_chengfen.id"": 1590,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1035.41毫克""
+    },
+    ""1591"": {
+        ""caipu_x_yingyang_chengfen.id"": 1591,
+        ""yingyang_chengfen.id"": 1591,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1831.98毫克""
+    },
+    ""1592"": {
+        ""caipu_x_yingyang_chengfen.id"": 1592,
+        ""yingyang_chengfen.id"": 1592,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2518毫克""
+    },
+    ""1593"": {
+        ""caipu_x_yingyang_chengfen.id"": 1593,
+        ""yingyang_chengfen.id"": 1593,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.62微克""
+    },
+    ""1594"": {
+        ""caipu_x_yingyang_chengfen.id"": 1594,
+        ""yingyang_chengfen.id"": 1594,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""116.85毫克""
+    },
+    ""1595"": {
+        ""caipu_x_yingyang_chengfen.id"": 1595,
+        ""yingyang_chengfen.id"": 1595,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""11.31毫克""
+    },
+    ""1596"": {
+        ""caipu_x_yingyang_chengfen.id"": 1596,
+        ""yingyang_chengfen.id"": 1596,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""3.15毫克""
+    },
+    ""1597"": {
+        ""caipu_x_yingyang_chengfen.id"": 1597,
+        ""yingyang_chengfen.id"": 1597,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""139.17微克""
+    }
+}"
+64,"2018-06-22 01:52:46",樱桃肉,烧,甜咸味,"1.豌豆苗择洗干净，备用；2.葱洗净，打成结；3.姜洗净，切片；4.将红曲米50 克碾碎，放锅内加清水l000 克，置旺火上烧沸，滤去渣即为红曲水；5.将猪肋条肉刮洗干净，放入沸水锅中，用旺火煮约10 分钟，取出洗净；6.肉皮朝上，用刀在肉皮面上剞五分见方小块；7.将竹箅置于砂锅内垫底，放入肉块，即皮朝上，舀入猪肉汤800毫升，加葱结、姜片、料酒、精盐10 克、红曲水，盖上锅盖，置中火上烧约30 分钟；8.放入一半冰糖，再盖上锅盖，用小火焖至酥烂；9.再加入剩余冰糖，用中火烧至卤汁稠浓，离火；10.拣出葱、姜，去掉肋骨，放入长腰盘中间，皮朝上，浇上原卤汁；11.炒锅置旺火上烧热，舀入花生油，放入豌豆苗、精盐、味精，煸炒至翠绿色，起锅盛放在肉块两端即成。",,中餐、晚餐,此菜色彩艳丽，形似樱桃，光亮悦目，酥烂肥醇，入口而化，先甜后咸，配以豆苗，红绿相映，有荤有素，别有风味。,"苏菜 滋阴食谱 贫血食谱 便秘食谱",猪肋条肉（五花肉）650克,豌豆苗250克,"冰糖50克 味精1克 红曲50克 料酒35克 盐12克 小葱10克 姜5克 花生油25克",7,0,8,5,3,0,5,"{
+    ""64"": {
+        ""category_1_x_caipu.id"": 64,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1600"": {
+        ""caipu_x_yingyang_chengfen.id"": 1600,
+        ""yingyang_chengfen.id"": 1600,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""4207.38千卡""
+    },
+    ""1601"": {
+        ""caipu_x_yingyang_chengfen.id"": 1601,
+        ""yingyang_chengfen.id"": 1601,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""71.08克""
+    },
+    ""1602"": {
+        ""caipu_x_yingyang_chengfen.id"": 1602,
+        ""yingyang_chengfen.id"": 1602,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""410.55克""
+    },
+    ""1603"": {
+        ""caipu_x_yingyang_chengfen.id"": 1603,
+        ""yingyang_chengfen.id"": 1603,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""62.42克""
+    },
+    ""1604"": {
+        ""caipu_x_yingyang_chengfen.id"": 1604,
+        ""yingyang_chengfen.id"": 1604,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""2.72微克""
+    },
+    ""1605"": {
+        ""caipu_x_yingyang_chengfen.id"": 1605,
+        ""yingyang_chengfen.id"": 1605,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""5.02克""
+    },
+    ""1606"": {
+        ""caipu_x_yingyang_chengfen.id"": 1606,
+        ""yingyang_chengfen.id"": 1606,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""708.5毫克""
+    },
+    ""1607"": {
+        ""caipu_x_yingyang_chengfen.id"": 1607,
+        ""yingyang_chengfen.id"": 1607,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""1192.9微克""
+    },
+    ""1608"": {
+        ""caipu_x_yingyang_chengfen.id"": 1608,
+        ""yingyang_chengfen.id"": 1608,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""169.8毫克""
+    },
+    ""1609"": {
+        ""caipu_x_yingyang_chengfen.id"": 1609,
+        ""yingyang_chengfen.id"": 1609,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""17.04毫克""
+    },
+    ""1610"": {
+        ""caipu_x_yingyang_chengfen.id"": 1610,
+        ""yingyang_chengfen.id"": 1610,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""6760微克""
+    },
+    ""1611"": {
+        ""caipu_x_yingyang_chengfen.id"": 1611,
+        ""yingyang_chengfen.id"": 1611,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.56毫克""
+    },
+    ""1612"": {
+        ""caipu_x_yingyang_chengfen.id"": 1612,
+        ""yingyang_chengfen.id"": 1612,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.73毫克""
+    },
+    ""1613"": {
+        ""caipu_x_yingyang_chengfen.id"": 1613,
+        ""yingyang_chengfen.id"": 1613,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""18.43毫克""
+    },
+    ""1614"": {
+        ""caipu_x_yingyang_chengfen.id"": 1614,
+        ""yingyang_chengfen.id"": 1614,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""165.69毫克""
+    },
+    ""1615"": {
+        ""caipu_x_yingyang_chengfen.id"": 1615,
+        ""yingyang_chengfen.id"": 1615,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""799.14毫克""
+    },
+    ""1616"": {
+        ""caipu_x_yingyang_chengfen.id"": 1616,
+        ""yingyang_chengfen.id"": 1616,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1977.52毫克""
+    },
+    ""1617"": {
+        ""caipu_x_yingyang_chengfen.id"": 1617,
+        ""yingyang_chengfen.id"": 1617,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""5369.18毫克""
+    },
+    ""1618"": {
+        ""caipu_x_yingyang_chengfen.id"": 1618,
+        ""yingyang_chengfen.id"": 1618,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""168.81毫克""
+    },
+    ""1619"": {
+        ""caipu_x_yingyang_chengfen.id"": 1619,
+        ""yingyang_chengfen.id"": 1619,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""18.76毫克""
+    },
+    ""1620"": {
+        ""caipu_x_yingyang_chengfen.id"": 1620,
+        ""yingyang_chengfen.id"": 1620,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""12.7毫克""
+    },
+    ""1621"": {
+        ""caipu_x_yingyang_chengfen.id"": 1621,
+        ""yingyang_chengfen.id"": 1621,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""27.04微克""
+    },
+    ""1622"": {
+        ""caipu_x_yingyang_chengfen.id"": 1622,
+        ""yingyang_chengfen.id"": 1622,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.91毫克""
+    },
+    ""1623"": {
+        ""caipu_x_yingyang_chengfen.id"": 1623,
+        ""yingyang_chengfen.id"": 1623,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:46"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""2.33毫克""
+    }
+}"
+65,"2018-06-22 01:52:54",生炝鲜虾,炝,腐汁味,1.先将虾去须爪，用冷开水反复洗净，控水后加入盐，拌匀后放盘内，再用曲酒炝制30分钟以杀菌去腥。2.将炝好的生虾放入另一个盘里，再把酱油、白糖、香醋、红腐乳汁、蒜末、姜末同时放碗内调匀，撒在虾上，再淋上香油，撒上白胡椒粉即成。,"河虾 虾忌与某些水果同吃。虾含有比较丰富的蛋白质和钙等营养物质。如果把它们与含有鞣酸的水果，如葡萄、石榴、山楂、柿子等同食，不仅会降低蛋白质的营养价值，而且鞣酸和钙离子结合形成不溶性结合物刺激肠胃，引起人体不适，出现呕吐、头晕、恶心和腹痛腹泻等症状。海鲜与这些水果同吃至少应间隔2小时。",早餐、中餐、晚餐,虾味鲜美，腐乳香甜，增进食欲。,"苏菜 通乳食谱 气血双补食谱 补虚养身食谱",河虾500克,,"大葱5克 大蒜（白皮）5克 腐乳（红）40克 白酒50克 盐5克 白胡椒3克 香油25克 酱油50克 白砂糖30克 醋15克",7,0,7,5,7,2,2,"{
+    ""65"": {
+        ""category_1_x_caipu.id"": 65,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1637"": {
+        ""caipu_x_yingyang_chengfen.id"": 1637,
+        ""yingyang_chengfen.id"": 112,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:45"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.26毫克""
+    },
+    ""1632"": {
+        ""caipu_x_yingyang_chengfen.id"": 1632,
+        ""yingyang_chengfen.id"": 409,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:18"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.01毫克""
+    },
+    ""1636"": {
+        ""caipu_x_yingyang_chengfen.id"": 1636,
+        ""yingyang_chengfen.id"": 1000,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:19"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.33毫克""
+    },
+    ""1643"": {
+        ""caipu_x_yingyang_chengfen.id"": 1643,
+        ""yingyang_chengfen.id"": 1215,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:48"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""1.45微克""
+    },
+    ""1624"": {
+        ""caipu_x_yingyang_chengfen.id"": 1624,
+        ""yingyang_chengfen.id"": 1624,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1043.21千卡""
+    },
+    ""1625"": {
+        ""caipu_x_yingyang_chengfen.id"": 1625,
+        ""yingyang_chengfen.id"": 1625,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""90.51克""
+    },
+    ""1626"": {
+        ""caipu_x_yingyang_chengfen.id"": 1626,
+        ""yingyang_chengfen.id"": 1626,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""40.35克""
+    },
+    ""1627"": {
+        ""caipu_x_yingyang_chengfen.id"": 1627,
+        ""yingyang_chengfen.id"": 1627,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""54.06克""
+    },
+    ""1628"": {
+        ""caipu_x_yingyang_chengfen.id"": 1628,
+        ""yingyang_chengfen.id"": 1628,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""4.05微克""
+    },
+    ""1629"": {
+        ""caipu_x_yingyang_chengfen.id"": 1629,
+        ""yingyang_chengfen.id"": 1629,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.58克""
+    },
+    ""1630"": {
+        ""caipu_x_yingyang_chengfen.id"": 1630,
+        ""yingyang_chengfen.id"": 1630,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1200毫克""
+    },
+    ""1631"": {
+        ""caipu_x_yingyang_chengfen.id"": 1631,
+        ""yingyang_chengfen.id"": 1631,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""247.1微克""
+    },
+    ""1633"": {
+        ""caipu_x_yingyang_chengfen.id"": 1633,
+        ""yingyang_chengfen.id"": 1633,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""0.5毫克""
+    },
+    ""1634"": {
+        ""caipu_x_yingyang_chengfen.id"": 1634,
+        ""yingyang_chengfen.id"": 1634,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""47.05毫克""
+    },
+    ""1635"": {
+        ""caipu_x_yingyang_chengfen.id"": 1635,
+        ""yingyang_chengfen.id"": 1635,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""42.5微克""
+    },
+    ""1638"": {
+        ""caipu_x_yingyang_chengfen.id"": 1638,
+        ""yingyang_chengfen.id"": 1638,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""1.52毫克""
+    },
+    ""1639"": {
+        ""caipu_x_yingyang_chengfen.id"": 1639,
+        ""yingyang_chengfen.id"": 1639,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""1708.11毫克""
+    },
+    ""1640"": {
+        ""caipu_x_yingyang_chengfen.id"": 1640,
+        ""yingyang_chengfen.id"": 1640,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1136.46毫克""
+    },
+    ""1641"": {
+        ""caipu_x_yingyang_chengfen.id"": 1641,
+        ""yingyang_chengfen.id"": 1641,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1928.47毫克""
+    },
+    ""1642"": {
+        ""caipu_x_yingyang_chengfen.id"": 1642,
+        ""yingyang_chengfen.id"": 1642,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""6794.33毫克""
+    },
+    ""1644"": {
+        ""caipu_x_yingyang_chengfen.id"": 1644,
+        ""yingyang_chengfen.id"": 1644,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""418.34毫克""
+    },
+    ""1645"": {
+        ""caipu_x_yingyang_chengfen.id"": 1645,
+        ""yingyang_chengfen.id"": 1645,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""30.59毫克""
+    },
+    ""1646"": {
+        ""caipu_x_yingyang_chengfen.id"": 1646,
+        ""yingyang_chengfen.id"": 1646,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""13.17毫克""
+    },
+    ""1647"": {
+        ""caipu_x_yingyang_chengfen.id"": 1647,
+        ""yingyang_chengfen.id"": 1647,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""152.45微克""
+    },
+    ""1648"": {
+        ""caipu_x_yingyang_chengfen.id"": 1648,
+        ""yingyang_chengfen.id"": 1648,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""3.36毫克""
+    },
+    ""1649"": {
+        ""caipu_x_yingyang_chengfen.id"": 1649,
+        ""yingyang_chengfen.id"": 1649,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""2.93毫克""
+    }
+}"
+66,"2018-06-22 01:52:57",凤蹄,蒸,咸甜味,1.将猪蹄刮洗干净，剖开至骨，斩下脚爪，同放入炒锅，舀入猪肉汤，放在旺火上烧沸，撇去浮沫，捞出洗净；2.猪蹄仍放锅中，加黄酒、精盐、葱段、姜块烧沸；3.将锅移在小火上烧至六成熟，捞出剔去大骨，用酱油抹在蹄皮上；4.凤尾鱼切成条块，放入碗中；5.将蹄膀放在鱼块上，再放入猪爪；6.加黄酒、酱油、白糖、舀入锅内原汤，用1只圆盘盖在碗上；7.上笼用旺火蒸约2小进后取出，滗出汤汁，翻扣入汤盆中，浇上汤汁即成。,,中餐、晚餐,此菜蹄膀皮糯肉烂，凤鱼味鲜，酒香四溢，是夏令时菜。,"苏菜 美容养颜食谱 延缓衰老食谱 通乳食谱 补虚养身食谱","猪蹄500克 凤尾鱼100克",,"黄酒100克 盐150克 酱油50克 白砂糖25克 大葱15克 姜5克",7,0,7,5,2,0,7,"{
+    ""66"": {
+        ""category_1_x_caipu.id"": 66,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1658"": {
+        ""caipu_x_yingyang_chengfen.id"": 1658,
+        ""yingyang_chengfen.id"": 181,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:55"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.02毫克""
+    },
+    ""1662"": {
+        ""caipu_x_yingyang_chengfen.id"": 1662,
+        ""yingyang_chengfen.id"": 643,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:50:07"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.7毫克""
+    },
+    ""1650"": {
+        ""caipu_x_yingyang_chengfen.id"": 1650,
+        ""yingyang_chengfen.id"": 1650,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1609千卡""
+    },
+    ""1651"": {
+        ""caipu_x_yingyang_chengfen.id"": 1651,
+        ""yingyang_chengfen.id"": 1651,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""130.9克""
+    },
+    ""1652"": {
+        ""caipu_x_yingyang_chengfen.id"": 1652,
+        ""yingyang_chengfen.id"": 1652,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""99.62克""
+    },
+    ""1653"": {
+        ""caipu_x_yingyang_chengfen.id"": 1653,
+        ""yingyang_chengfen.id"": 1653,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""32.21克""
+    },
+    ""1654"": {
+        ""caipu_x_yingyang_chengfen.id"": 1654,
+        ""yingyang_chengfen.id"": 1654,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""1.9微克""
+    },
+    ""1655"": {
+        ""caipu_x_yingyang_chengfen.id"": 1655,
+        ""yingyang_chengfen.id"": 1655,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.6克""
+    },
+    ""1656"": {
+        ""caipu_x_yingyang_chengfen.id"": 1656,
+        ""yingyang_chengfen.id"": 1656,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1077毫克""
+    },
+    ""1657"": {
+        ""caipu_x_yingyang_chengfen.id"": 1657,
+        ""yingyang_chengfen.id"": 1657,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""33.05微克""
+    },
+    ""1659"": {
+        ""caipu_x_yingyang_chengfen.id"": 1659,
+        ""yingyang_chengfen.id"": 1659,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""0.65毫克""
+    },
+    ""1660"": {
+        ""caipu_x_yingyang_chengfen.id"": 1660,
+        ""yingyang_chengfen.id"": 1660,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""0.89毫克""
+    },
+    ""1661"": {
+        ""caipu_x_yingyang_chengfen.id"": 1661,
+        ""yingyang_chengfen.id"": 1661,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""18.1微克""
+    },
+    ""1663"": {
+        ""caipu_x_yingyang_chengfen.id"": 1663,
+        ""yingyang_chengfen.id"": 1663,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.3毫克""
+    },
+    ""1664"": {
+        ""caipu_x_yingyang_chengfen.id"": 1664,
+        ""yingyang_chengfen.id"": 1664,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""9.96毫克""
+    },
+    ""1665"": {
+        ""caipu_x_yingyang_chengfen.id"": 1665,
+        ""yingyang_chengfen.id"": 1665,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""401.8毫克""
+    },
+    ""1666"": {
+        ""caipu_x_yingyang_chengfen.id"": 1666,
+        ""yingyang_chengfen.id"": 1666,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""793毫克""
+    },
+    ""1667"": {
+        ""caipu_x_yingyang_chengfen.id"": 1667,
+        ""yingyang_chengfen.id"": 1667,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""679毫克""
+    },
+    ""1668"": {
+        ""caipu_x_yingyang_chengfen.id"": 1668,
+        ""yingyang_chengfen.id"": 1668,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""62410.5毫克""
+    },
+    ""1669"": {
+        ""caipu_x_yingyang_chengfen.id"": 1669,
+        ""yingyang_chengfen.id"": 1669,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""1.2微克""
+    },
+    ""1670"": {
+        ""caipu_x_yingyang_chengfen.id"": 1670,
+        ""yingyang_chengfen.id"": 1670,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""154.35毫克""
+    },
+    ""1671"": {
+        ""caipu_x_yingyang_chengfen.id"": 1671,
+        ""yingyang_chengfen.id"": 1671,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""13.91毫克""
+    },
+    ""1672"": {
+        ""caipu_x_yingyang_chengfen.id"": 1672,
+        ""yingyang_chengfen.id"": 1672,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""8.75毫克""
+    },
+    ""1673"": {
+        ""caipu_x_yingyang_chengfen.id"": 1673,
+        ""yingyang_chengfen.id"": 1673,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""69.96微克""
+    },
+    ""1674"": {
+        ""caipu_x_yingyang_chengfen.id"": 1674,
+        ""yingyang_chengfen.id"": 1674,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.89毫克""
+    },
+    ""1675"": {
+        ""caipu_x_yingyang_chengfen.id"": 1675,
+        ""yingyang_chengfen.id"": 1675,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:57"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""1.83毫克""
+    }
+}"
+67,"2018-06-22 01:53:05",蟹子豆腐,烩,咸鲜味,"1.鲜蟹子磨成浆汁加热，使之凝固成豆腐状，即成蟹子“豆腐”；2.将蟹子“豆腐”切成长5 厘米、宽2 厘米、高0.5 厘米的长方块，待用；3.油菜心择洗干净，用沸水焯烫备用；4.姜葱分别洗净，均切成末；5.木耳择洗干净；6.将锅置旺火上，舀入熟猪油，烧至六成热时，投入姜葱末略煸，放入蟹子“豆腐”，轻轻炒几下，加入料酒、鸡清汤150毫升、木耳、精盐，放入菜心，同烧；7.烧沸后用水淀粉勾芡，淋入香油，装盘撒上胡椒粉（白胡椒粉）即成。","木耳(水发) 木耳不宜与田螺同食，从食物药性来说，寒性的田螺，遇上滑利的木耳，不利于消化，所以二者不宜同食。患有痔疮者木耳与野鸡不宜同食，野鸡有小毒，二者同食易诱发痔疮出血。木耳不宜与野鸭同食，野鸭味甘性凉，同时易消化不良。",中餐、晚餐,蟹子“豆腐”色橙红，配以翠绿菜心，艳丽悦目，嫩若凝脂，腴香糯滑，品上一口，百菜乏味。,"苏菜 清热解毒食谱 滋阴食谱 补虚养身食谱",螃蟹350克,"油菜心100克 木耳(水发)25克","猪油（炼制）75克 盐4克 料酒15克 小葱3克 姜3克 胡椒粉1克 淀粉(蚕豆)15克 香油25克",6,0,8,5,6,0,0,"{
+    ""67"": {
+        ""category_1_x_caipu.id"": 67,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1688"": {
+        ""caipu_x_yingyang_chengfen.id"": 1688,
+        ""yingyang_chengfen.id"": 618,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:58"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.28毫克""
+    },
+    ""1676"": {
+        ""caipu_x_yingyang_chengfen.id"": 1676,
+        ""yingyang_chengfen.id"": 1676,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1329.17千卡""
+    },
+    ""1677"": {
+        ""caipu_x_yingyang_chengfen.id"": 1677,
+        ""yingyang_chengfen.id"": 1677,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""63.68克""
+    },
+    ""1678"": {
+        ""caipu_x_yingyang_chengfen.id"": 1678,
+        ""yingyang_chengfen.id"": 1678,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""109.33克""
+    },
+    ""1679"": {
+        ""caipu_x_yingyang_chengfen.id"": 1679,
+        ""yingyang_chengfen.id"": 1679,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""27.57克""
+    },
+    ""1680"": {
+        ""caipu_x_yingyang_chengfen.id"": 1680,
+        ""yingyang_chengfen.id"": 1680,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""1.34微克""
+    },
+    ""1681"": {
+        ""caipu_x_yingyang_chengfen.id"": 1681,
+        ""yingyang_chengfen.id"": 1681,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""1.97克""
+    },
+    ""1682"": {
+        ""caipu_x_yingyang_chengfen.id"": 1682,
+        ""yingyang_chengfen.id"": 1682,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1004.25毫克""
+    },
+    ""1683"": {
+        ""caipu_x_yingyang_chengfen.id"": 1683,
+        ""yingyang_chengfen.id"": 1683,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""1490.64微克""
+    },
+    ""1684"": {
+        ""caipu_x_yingyang_chengfen.id"": 1684,
+        ""yingyang_chengfen.id"": 1684,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""37毫克""
+    },
+    ""1685"": {
+        ""caipu_x_yingyang_chengfen.id"": 1685,
+        ""yingyang_chengfen.id"": 1685,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""45.44毫克""
+    },
+    ""1686"": {
+        ""caipu_x_yingyang_chengfen.id"": 1686,
+        ""yingyang_chengfen.id"": 1686,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""655.9微克""
+    },
+    ""1687"": {
+        ""caipu_x_yingyang_chengfen.id"": 1687,
+        ""yingyang_chengfen.id"": 1687,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""1.13毫克""
+    },
+    ""1689"": {
+        ""caipu_x_yingyang_chengfen.id"": 1689,
+        ""yingyang_chengfen.id"": 1689,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""6.75毫克""
+    },
+    ""1690"": {
+        ""caipu_x_yingyang_chengfen.id"": 1690,
+        ""yingyang_chengfen.id"": 1690,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""566.77毫克""
+    },
+    ""1691"": {
+        ""caipu_x_yingyang_chengfen.id"": 1691,
+        ""yingyang_chengfen.id"": 1691,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""686.6毫克""
+    },
+    ""1692"": {
+        ""caipu_x_yingyang_chengfen.id"": 1692,
+        ""yingyang_chengfen.id"": 1692,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""873.24毫克""
+    },
+    ""1693"": {
+        ""caipu_x_yingyang_chengfen.id"": 1693,
+        ""yingyang_chengfen.id"": 1693,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2311.23毫克""
+    },
+    ""1694"": {
+        ""caipu_x_yingyang_chengfen.id"": 1694,
+        ""yingyang_chengfen.id"": 1694,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.08微克""
+    },
+    ""1695"": {
+        ""caipu_x_yingyang_chengfen.id"": 1695,
+        ""yingyang_chengfen.id"": 1695,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""121.17毫克""
+    },
+    ""1696"": {
+        ""caipu_x_yingyang_chengfen.id"": 1696,
+        ""yingyang_chengfen.id"": 1696,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""13.33毫克""
+    },
+    ""1697"": {
+        ""caipu_x_yingyang_chengfen.id"": 1697,
+        ""yingyang_chengfen.id"": 1697,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""13.43毫克""
+    },
+    ""1698"": {
+        ""caipu_x_yingyang_chengfen.id"": 1698,
+        ""yingyang_chengfen.id"": 1698,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""199.67微克""
+    },
+    ""1699"": {
+        ""caipu_x_yingyang_chengfen.id"": 1699,
+        ""yingyang_chengfen.id"": 1699,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""10.49毫克""
+    },
+    ""1700"": {
+        ""caipu_x_yingyang_chengfen.id"": 1700,
+        ""yingyang_chengfen.id"": 1700,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:05"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""2.08毫克""
+    }
+}"
+68,"2018-06-22 01:53:12",宿迁猪头肉,红烧,五香味,"1.葱去根须洗净，切段；2.姜洗净，切片；3.蒜去蒜衣，洗净，切片；4.将猪头放清水中，镊去毛，刮洗干净；5.猪面朝下放板上，在后脑中间劈开，取出猪脑，剔去骨头，割下两耳，去掉猪眼圈、淋巴肉、嘴唇、耳圈、鼻子；6.猪脸切成两块，下巴切成3 块；7.再放在清水中泡去血污，捞出放沸水锅内，烧约20 分钟，捞出洗净，切成5 厘米的方块；8.锅内用竹箅垫底，放入猪头肉块，加酱油、猪肉汤2500毫升，置旺火上烧沸，撇去浮沫，加大料、桂皮、绍酒，盖上锅盖，同烧；9.烧约20 分钟，移至微火上焖至汤浓，然后放入葱段、姜片、蒜瓣片烧约5 分钟，加绵白糖、味精，淋入香油，起锅晾凉，即可装盘。",,中餐、晚餐,此菜色泽红润，香味浓郁，肥肉酥烂，瘦肉鲜香，味纯而嫩。,"营养不良食谱 苏菜 补虚养身食谱",猪头6500克,,"酱油750克 白砂糖100克 黄酒150克 味精5克 八角25克 桂皮25克 大葱50克 大蒜（白皮）25克 香油100克",6,4,7,6,5,0,0,"{
+    ""68"": {
+        ""category_1_x_caipu.id"": 68,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1724"": {
+        ""caipu_x_yingyang_chengfen.id"": 1724,
+        ""yingyang_chengfen.id"": 1418,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:25"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.83毫克""
+    },
+    ""1701"": {
+        ""caipu_x_yingyang_chengfen.id"": 1701,
+        ""yingyang_chengfen.id"": 1701,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1974.65千卡""
+    },
+    ""1702"": {
+        ""caipu_x_yingyang_chengfen.id"": 1702,
+        ""yingyang_chengfen.id"": 1702,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""49.28克""
+    },
+    ""1703"": {
+        ""caipu_x_yingyang_chengfen.id"": 1703,
+        ""yingyang_chengfen.id"": 1703,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""102.06克""
+    },
+    ""1704"": {
+        ""caipu_x_yingyang_chengfen.id"": 1704,
+        ""yingyang_chengfen.id"": 1704,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""205.82克""
+    },
+    ""1705"": {
+        ""caipu_x_yingyang_chengfen.id"": 1705,
+        ""yingyang_chengfen.id"": 1705,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""7.65微克""
+    },
+    ""1706"": {
+        ""caipu_x_yingyang_chengfen.id"": 1706,
+        ""yingyang_chengfen.id"": 1706,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""13.72克""
+    },
+    ""1707"": {
+        ""caipu_x_yingyang_chengfen.id"": 1707,
+        ""yingyang_chengfen.id"": 1707,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""8.5微克""
+    },
+    ""1708"": {
+        ""caipu_x_yingyang_chengfen.id"": 1708,
+        ""yingyang_chengfen.id"": 1708,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.08毫克""
+    },
+    ""1709"": {
+        ""caipu_x_yingyang_chengfen.id"": 1709,
+        ""yingyang_chengfen.id"": 1709,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""3.25毫克""
+    },
+    ""1710"": {
+        ""caipu_x_yingyang_chengfen.id"": 1710,
+        ""yingyang_chengfen.id"": 1710,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""70.34毫克""
+    },
+    ""1711"": {
+        ""caipu_x_yingyang_chengfen.id"": 1711,
+        ""yingyang_chengfen.id"": 1711,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""49.5微克""
+    },
+    ""1712"": {
+        ""caipu_x_yingyang_chengfen.id"": 1712,
+        ""yingyang_chengfen.id"": 1712,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""1.15毫克""
+    },
+    ""1713"": {
+        ""caipu_x_yingyang_chengfen.id"": 1713,
+        ""yingyang_chengfen.id"": 1713,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.48毫克""
+    },
+    ""1714"": {
+        ""caipu_x_yingyang_chengfen.id"": 1714,
+        ""yingyang_chengfen.id"": 1714,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""14.14毫克""
+    },
+    ""1715"": {
+        ""caipu_x_yingyang_chengfen.id"": 1715,
+        ""yingyang_chengfen.id"": 1715,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""633毫克""
+    },
+    ""1716"": {
+        ""caipu_x_yingyang_chengfen.id"": 1716,
+        ""yingyang_chengfen.id"": 1716,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1627.45毫克""
+    },
+    ""1717"": {
+        ""caipu_x_yingyang_chengfen.id"": 1717,
+        ""yingyang_chengfen.id"": 1717,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""2752.7毫克""
+    },
+    ""1718"": {
+        ""caipu_x_yingyang_chengfen.id"": 1718,
+        ""yingyang_chengfen.id"": 1718,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""43607毫克""
+    },
+    ""1719"": {
+        ""caipu_x_yingyang_chengfen.id"": 1719,
+        ""yingyang_chengfen.id"": 1719,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""18微克""
+    },
+    ""1720"": {
+        ""caipu_x_yingyang_chengfen.id"": 1720,
+        ""yingyang_chengfen.id"": 1720,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""1226.1毫克""
+    },
+    ""1721"": {
+        ""caipu_x_yingyang_chengfen.id"": 1721,
+        ""yingyang_chengfen.id"": 1721,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""68.44毫克""
+    },
+    ""1722"": {
+        ""caipu_x_yingyang_chengfen.id"": 1722,
+        ""yingyang_chengfen.id"": 1722,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""10.29毫克""
+    },
+    ""1723"": {
+        ""caipu_x_yingyang_chengfen.id"": 1723,
+        ""yingyang_chengfen.id"": 1723,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""13.11微克""
+    },
+    ""1725"": {
+        ""caipu_x_yingyang_chengfen.id"": 1725,
+        ""yingyang_chengfen.id"": 1725,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""10.97毫克""
+    }
+}"
+69,"2018-06-22 01:53:15",牛乳鲜鱼唇,白烧,咸鲜味,"1.香菇去蒂，洗净，切片；2.姜洗净，切片；3.冬笋去外层老皮，洗净，切片；4.油菜心洗净，削成鹦鹉嘴状，改切成12 瓣；5.葱洗净，挽成结；6.香菜洗净，备用；7.将鱼唇（鲜虎鲨鱼唇）入沸水浸泡片刻，煺沙漂清；8.将鱼唇捞出改切成长6 厘米、宽2.5 厘米的长方块；9.油菜心下入四成热的油锅过油后待用；10.将锅置旺火上烧热，舀人熟猪油25 克，投入姜片、葱结略煸；11.加黄酒50 克、鸡清汤500毫升，放人鲜鱼唇烧沸；12.再移至小火炖至纯软捞出；14.原锅洗净置于旺火上烧热，舀入熟猪油50 克，投入笋片、冬菇略炒；15.放入鸡清汤25 克、鱼唇、油菜心、黄酒50 克、精盐、味精，同烧；16.烧沸后加入鲜奶再烧至沸；17.用水淀粉勾芡，淋上熟鸡油，撒上白胡椒粉，放上香菜叶即成。",,中餐、晚餐,汁浓汤白，汤菜融和，鱼唇腴美柔滑而富有弹性。,"苏菜 美容养颜食谱",鱼唇1000克,"香菇（鲜）75克 冬笋75克 油菜心75克","牛奶20克 盐5克 姜4克 白胡椒1克 淀粉(蚕豆)8克 猪油（炼制）75克 黄酒10克 小葱4克 香菜10克 鸡油25克",6,0,7,6,4,0,7,"{
+    ""69"": {
+        ""category_1_x_caipu.id"": 69,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1738"": {
+        ""caipu_x_yingyang_chengfen.id"": 1738,
+        ""yingyang_chengfen.id"": 137,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:49"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.12毫克""
+    },
+    ""1750"": {
+        ""caipu_x_yingyang_chengfen.id"": 1750,
+        ""yingyang_chengfen.id"": 476,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:33"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.58毫克""
+    },
+    ""1749"": {
+        ""caipu_x_yingyang_chengfen.id"": 1749,
+        ""yingyang_chengfen.id"": 757,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:50:26"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.19毫克""
+    },
+    ""1726"": {
+        ""caipu_x_yingyang_chengfen.id"": 1726,
+        ""yingyang_chengfen.id"": 1726,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""774.7千卡""
+    },
+    ""1727"": {
+        ""caipu_x_yingyang_chengfen.id"": 1727,
+        ""yingyang_chengfen.id"": 1727,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""7.27克""
+    },
+    ""1728"": {
+        ""caipu_x_yingyang_chengfen.id"": 1728,
+        ""yingyang_chengfen.id"": 1728,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""76.12克""
+    },
+    ""1729"": {
+        ""caipu_x_yingyang_chengfen.id"": 1729,
+        ""yingyang_chengfen.id"": 1729,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""21.28克""
+    },
+    ""1730"": {
+        ""caipu_x_yingyang_chengfen.id"": 1730,
+        ""yingyang_chengfen.id"": 1730,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""47.02微克""
+    },
+    ""1731"": {
+        ""caipu_x_yingyang_chengfen.id"": 1731,
+        ""yingyang_chengfen.id"": 1731,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""4.25克""
+    },
+    ""1732"": {
+        ""caipu_x_yingyang_chengfen.id"": 1732,
+        ""yingyang_chengfen.id"": 1732,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""72.75毫克""
+    },
+    ""1733"": {
+        ""caipu_x_yingyang_chengfen.id"": 1733,
+        ""yingyang_chengfen.id"": 1733,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""138.17微克""
+    },
+    ""1734"": {
+        ""caipu_x_yingyang_chengfen.id"": 1734,
+        ""yingyang_chengfen.id"": 1734,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""34.5毫克""
+    },
+    ""1735"": {
+        ""caipu_x_yingyang_chengfen.id"": 1735,
+        ""yingyang_chengfen.id"": 1735,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""4.71毫克""
+    },
+    ""1736"": {
+        ""caipu_x_yingyang_chengfen.id"": 1736,
+        ""yingyang_chengfen.id"": 1736,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""682微克""
+    },
+    ""1737"": {
+        ""caipu_x_yingyang_chengfen.id"": 1737,
+        ""yingyang_chengfen.id"": 1737,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.28毫克""
+    },
+    ""1739"": {
+        ""caipu_x_yingyang_chengfen.id"": 1739,
+        ""yingyang_chengfen.id"": 1739,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""2.83毫克""
+    },
+    ""1740"": {
+        ""caipu_x_yingyang_chengfen.id"": 1740,
+        ""yingyang_chengfen.id"": 1740,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""141.96毫克""
+    },
+    ""1741"": {
+        ""caipu_x_yingyang_chengfen.id"": 1741,
+        ""yingyang_chengfen.id"": 1741,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""138.68毫克""
+    },
+    ""1742"": {
+        ""caipu_x_yingyang_chengfen.id"": 1742,
+        ""yingyang_chengfen.id"": 1742,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""244.66毫克""
+    },
+    ""1743"": {
+        ""caipu_x_yingyang_chengfen.id"": 1743,
+        ""yingyang_chengfen.id"": 1743,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2023.78毫克""
+    },
+    ""1744"": {
+        ""caipu_x_yingyang_chengfen.id"": 1744,
+        ""yingyang_chengfen.id"": 1744,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.23微克""
+    },
+    ""1745"": {
+        ""caipu_x_yingyang_chengfen.id"": 1745,
+        ""yingyang_chengfen.id"": 1745,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""36.25毫克""
+    },
+    ""1746"": {
+        ""caipu_x_yingyang_chengfen.id"": 1746,
+        ""yingyang_chengfen.id"": 1746,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""2.04毫克""
+    },
+    ""1747"": {
+        ""caipu_x_yingyang_chengfen.id"": 1747,
+        ""yingyang_chengfen.id"": 1747,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""0.98毫克""
+    },
+    ""1748"": {
+        ""caipu_x_yingyang_chengfen.id"": 1748,
+        ""yingyang_chengfen.id"": 1748,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:15"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""3.27微克""
+    }
+}"
+70,"2018-06-22 01:53:22",水油浸鳊鱼,焦溜,咸鲜味,"1.姜洗净，10克切片，3克切丝；2.葱去根须，洗净，10克切段，10克切丝；3.将宰杀洗净的鳊鱼（武昌鱼）用料酒75 克，精盐4 克、姜片、葱段腌渍15 分钟左右，使其入味，拣去姜、葱，再将鱼用干净布吸干水分待用；4.将锅置旺火上，舀入清水750毫升，烧沸后舀入花生油，使其油水温度保持在90℃左右（似沸非沸的状态），将鱼放入，用小火浸制约10 分钟左右，至鱼身上浮， 将鱼捞起装在盘里；5.另取炒锅置旺火上，舀入鸡清汤250毫升，加料酒25 克、精盐3克、味精，烧沸后用水淀粉勾芡，制成稀卤汁浇在鱼上；6.在鱼身上放姜丝、葱丝，将烧热的香油浇在葱、姜丝上即成。",,中餐、晚餐,此菜装盘后在鱼身上先浇调味卤汁，再在姜葱丝上浇热油、吱吱有声，香味四溢。观其色形，嗅其鲜香，闻其声响，馋涎欲滴。,"苏菜 补虚养身食谱 营养不良食谱 青少年食谱 学生膳食",武昌鱼600克,,"料酒100克 盐7克 味精1克 姜13克 小葱12克 淀粉(蚕豆)13克 香油25克 花生油60克",6,0,7,5,5,0,0,"{
+    ""70"": {
+        ""category_1_x_caipu.id"": 70,
+        ""category_1.id"": 7,
+        ""category_1.ts"": ""2018-06-21 23:14:09"",
+        ""category_1.title"": ""苏菜""
+    }
+}","{
+    ""1763"": {
+        ""caipu_x_yingyang_chengfen.id"": 1763,
+        ""yingyang_chengfen.id"": 136,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:47:49"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.43毫克""
+    },
+    ""1764"": {
+        ""caipu_x_yingyang_chengfen.id"": 1764,
+        ""yingyang_chengfen.id"": 1080,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:25"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.13毫克""
+    },
+    ""1775"": {
+        ""caipu_x_yingyang_chengfen.id"": 1775,
+        ""yingyang_chengfen.id"": 1247,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:48"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.97毫克""
+    },
+    ""1756"": {
+        ""caipu_x_yingyang_chengfen.id"": 1756,
+        ""yingyang_chengfen.id"": 1629,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.58克""
+    },
+    ""1751"": {
+        ""caipu_x_yingyang_chengfen.id"": 1751,
+        ""yingyang_chengfen.id"": 1751,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1629.12千卡""
+    },
+    ""1752"": {
+        ""caipu_x_yingyang_chengfen.id"": 1752,
+        ""yingyang_chengfen.id"": 1752,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""110.63克""
+    },
+    ""1753"": {
+        ""caipu_x_yingyang_chengfen.id"": 1753,
+        ""yingyang_chengfen.id"": 1753,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""122.79克""
+    },
+    ""1754"": {
+        ""caipu_x_yingyang_chengfen.id"": 1754,
+        ""yingyang_chengfen.id"": 1754,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""20.53克""
+    },
+    ""1755"": {
+        ""caipu_x_yingyang_chengfen.id"": 1755,
+        ""yingyang_chengfen.id"": 1755,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""3.99微克""
+    },
+    ""1757"": {
+        ""caipu_x_yingyang_chengfen.id"": 1757,
+        ""yingyang_chengfen.id"": 1757,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""564毫克""
+    },
+    ""1758"": {
+        ""caipu_x_yingyang_chengfen.id"": 1758,
+        ""yingyang_chengfen.id"": 1758,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""188.44微克""
+    },
+    ""1759"": {
+        ""caipu_x_yingyang_chengfen.id"": 1759,
+        ""yingyang_chengfen.id"": 1759,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""3.04毫克""
+    },
+    ""1760"": {
+        ""caipu_x_yingyang_chengfen.id"": 1760,
+        ""yingyang_chengfen.id"": 1760,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""45.86毫克""
+    },
+    ""1761"": {
+        ""caipu_x_yingyang_chengfen.id"": 1761,
+        ""yingyang_chengfen.id"": 1761,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""122.9微克""
+    },
+    ""1762"": {
+        ""caipu_x_yingyang_chengfen.id"": 1762,
+        ""yingyang_chengfen.id"": 1762,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""泛酸"",
+        ""yingyang_chengfen.value"": ""11.4毫克""
+    },
+    ""1765"": {
+        ""caipu_x_yingyang_chengfen.id"": 1765,
+        ""yingyang_chengfen.id"": 1765,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""10.36毫克""
+    },
+    ""1766"": {
+        ""caipu_x_yingyang_chengfen.id"": 1766,
+        ""yingyang_chengfen.id"": 1766,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""560.57毫克""
+    },
+    ""1767"": {
+        ""caipu_x_yingyang_chengfen.id"": 1767,
+        ""yingyang_chengfen.id"": 1767,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1147.18毫克""
+    },
+    ""1768"": {
+        ""caipu_x_yingyang_chengfen.id"": 1768,
+        ""yingyang_chengfen.id"": 1768,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1348.43毫克""
+    },
+    ""1769"": {
+        ""caipu_x_yingyang_chengfen.id"": 1769,
+        ""yingyang_chengfen.id"": 1769,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""3087.7毫克""
+    },
+    ""1770"": {
+        ""caipu_x_yingyang_chengfen.id"": 1770,
+        ""yingyang_chengfen.id"": 1770,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""112.33毫克""
+    },
+    ""1771"": {
+        ""caipu_x_yingyang_chengfen.id"": 1771,
+        ""yingyang_chengfen.id"": 1771,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""6.71毫克""
+    },
+    ""1772"": {
+        ""caipu_x_yingyang_chengfen.id"": 1772,
+        ""yingyang_chengfen.id"": 1772,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""5.78毫克""
+    },
+    ""1773"": {
+        ""caipu_x_yingyang_chengfen.id"": 1773,
+        ""yingyang_chengfen.id"": 1773,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""69.89微克""
+    },
+    ""1774"": {
+        ""caipu_x_yingyang_chengfen.id"": 1774,
+        ""yingyang_chengfen.id"": 1774,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:22"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.55毫克""
+    }
+}"
+71,"2018-06-22 01:53:31",玉兔海参,粉蒸,咸鲜味,1.香菇去蒂，洗净，切末；2.小白菜心择洗干净；3.葱姜洗净，葱打结，姜切片；4.水发海参每根一剖为二洗净放碗中，加入鸡汤200毫升、鸡油15克、黄酒10克、精盐少量、葱结5克、姜片5克，上笼蒸20分钟，取出海参，汤汁留用；5.鸡脯肉、鱼肉、肥膘肉剁成茸泥；6.肉泥与香菇末放入碗中，加精盐、味精各少许、胡椒粉、黄酒、葱姜、干淀粉5克，搅拌成三鲜馅心；7.海参酿上三鲜馅心；8.鸡蛋清放入碗内用筷子搅打成泡沫状，加入味精、盐各少许、干淀粉搅拌成蛋泡糊；9.取汤匙12把抹上冷猪油，将剩下的三鲜馅心分别抹在汤匙里，再将蛋泡糊堆抹在上面成兔状，连同海参上笼蒸5分钟取出；10.同时将白菜心用开水烫一下，放入在圆盘周围；11.小白兔脱出汤匙，头朝里分摆在菜心上，中间放海参；12.锅上火，倒入蒸海参的汤汁，加剩下的鸡汤、味精，烧开后撇去浮沫，用湿淀粉勾薄芡，淋上鸡油，浇在海参上即成。,"肥膘肉 猪肉不宜与乌梅、甘草、鲫鱼、虾、鸽肉、田螺、杏仁、驴肉、羊肝、香菜、甲鱼、菱角、荞麦、鹌鹑肉、牛肉同食。食用猪肉后不宜大量饮茶。",中餐、晚餐,选型优美，色调素雅，令人心旷神怡。海参柔糯鲜醇，并瓤有三鲜馅心，锦上添花。,"皖菜 补虚养身食谱 老人食谱 延缓衰老食谱","海参（水浸）400克 鸡胸脯肉100克","香菇（鲜）25克 鸡蛋清120克 小白菜150克 肥膘肉25克 鳜鱼50克","小葱15克 姜15克 淀粉(玉米)15克 盐5克 味精1克 黄酒20克 鸡油25克 胡椒粉1克 猪油（炼制）25克",7,0,8,5,5,0,2,"{
+    ""71"": {
+        ""category_1_x_caipu.id"": 71,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1788"": {
+        ""caipu_x_yingyang_chengfen.id"": 1788,
+        ""yingyang_chengfen.id"": 465,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:33"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.2毫克""
+    },
+    ""1776"": {
+        ""caipu_x_yingyang_chengfen.id"": 1776,
+        ""yingyang_chengfen.id"": 1776,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""893.2千卡""
+    },
+    ""1777"": {
+        ""caipu_x_yingyang_chengfen.id"": 1777,
+        ""yingyang_chengfen.id"": 1777,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""72.1克""
+    },
+    ""1778"": {
+        ""caipu_x_yingyang_chengfen.id"": 1778,
+        ""yingyang_chengfen.id"": 1778,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""55.38克""
+    },
+    ""1779"": {
+        ""caipu_x_yingyang_chengfen.id"": 1779,
+        ""yingyang_chengfen.id"": 1779,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""27.68克""
+    },
+    ""1780"": {
+        ""caipu_x_yingyang_chengfen.id"": 1780,
+        ""yingyang_chengfen.id"": 1780,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""80.08微克""
+    },
+    ""1781"": {
+        ""caipu_x_yingyang_chengfen.id"": 1781,
+        ""yingyang_chengfen.id"": 1781,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""3.13克""
+    },
+    ""1782"": {
+        ""caipu_x_yingyang_chengfen.id"": 1782,
+        ""yingyang_chengfen.id"": 1782,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""394.5毫克""
+    },
+    ""1783"": {
+        ""caipu_x_yingyang_chengfen.id"": 1783,
+        ""yingyang_chengfen.id"": 1783,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""525.3微克""
+    },
+    ""1784"": {
+        ""caipu_x_yingyang_chengfen.id"": 1784,
+        ""yingyang_chengfen.id"": 1784,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""46毫克""
+    },
+    ""1785"": {
+        ""caipu_x_yingyang_chengfen.id"": 1785,
+        ""yingyang_chengfen.id"": 1785,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""3.15毫克""
+    },
+    ""1786"": {
+        ""caipu_x_yingyang_chengfen.id"": 1786,
+        ""yingyang_chengfen.id"": 1786,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""2672.1微克""
+    },
+    ""1787"": {
+        ""caipu_x_yingyang_chengfen.id"": 1787,
+        ""yingyang_chengfen.id"": 1787,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.86毫克""
+    },
+    ""1789"": {
+        ""caipu_x_yingyang_chengfen.id"": 1789,
+        ""yingyang_chengfen.id"": 1789,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""17.43毫克""
+    },
+    ""1790"": {
+        ""caipu_x_yingyang_chengfen.id"": 1790,
+        ""yingyang_chengfen.id"": 1790,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""1169.42毫克""
+    },
+    ""1791"": {
+        ""caipu_x_yingyang_chengfen.id"": 1791,
+        ""yingyang_chengfen.id"": 1791,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""473.21毫克""
+    },
+    ""1792"": {
+        ""caipu_x_yingyang_chengfen.id"": 1792,
+        ""yingyang_chengfen.id"": 1792,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1160.03毫克""
+    },
+    ""1793"": {
+        ""caipu_x_yingyang_chengfen.id"": 1793,
+        ""yingyang_chengfen.id"": 1793,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2656.03毫克""
+    },
+    ""1794"": {
+        ""caipu_x_yingyang_chengfen.id"": 1794,
+        ""yingyang_chengfen.id"": 1794,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""15.08微克""
+    },
+    ""1795"": {
+        ""caipu_x_yingyang_chengfen.id"": 1795,
+        ""yingyang_chengfen.id"": 1795,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""230.9毫克""
+    },
+    ""1796"": {
+        ""caipu_x_yingyang_chengfen.id"": 1796,
+        ""yingyang_chengfen.id"": 1796,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""9.87毫克""
+    },
+    ""1797"": {
+        ""caipu_x_yingyang_chengfen.id"": 1797,
+        ""yingyang_chengfen.id"": 1797,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""3.5毫克""
+    },
+    ""1798"": {
+        ""caipu_x_yingyang_chengfen.id"": 1798,
+        ""yingyang_chengfen.id"": 1798,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""60.24微克""
+    },
+    ""1799"": {
+        ""caipu_x_yingyang_chengfen.id"": 1799,
+        ""yingyang_chengfen.id"": 1799,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.4毫克""
+    },
+    ""1800"": {
+        ""caipu_x_yingyang_chengfen.id"": 1800,
+        ""yingyang_chengfen.id"": 1800,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:31"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""1.28毫克""
+    }
+}"
+72,"2018-06-22 01:53:32",银鱼煎蛋,生煎,咸鲜味,"1.选用长5 厘米左右的小银鱼洗净，沥干水分；2.葱姜洗净，均切成末；3.鸡蛋磕入碗内，加葱末、姜末、黄酒和盐，搅散后再放入银鱼拌匀；4.炒锅置中火，放入熟猪油75 克，烧至八成热下入鸡蛋，随即将锅微微转动，使蛋液摊开；5.待鸡蛋液凝固时再一颠锅，使鸡蛋整个翻身，淋上熟猪油25 克，换用小火煎透出锅，装盘即成。","鸡蛋 与鹅肉同食损伤脾胃；与兔肉、柿子同食导致腹泻；同时不宜与甲鱼、鲤鱼、豆浆、茶同食。",中餐、晚餐,成菜黄中间白，食之软润香鲜，带有蟹味。,"皖菜 营养不良食谱 脾调养食谱 补虚养身食谱","银鱼200克 鸡蛋300克",,"姜2克 盐5克 小葱2克 黄酒15克 猪油（炼制）30克",7,0,7,6,6,0,0,"{
+    ""72"": {
+        ""category_1_x_caipu.id"": 72,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1809"": {
+        ""caipu_x_yingyang_chengfen.id"": 1809,
+        ""yingyang_chengfen.id"": 1633,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:54"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""0.5毫克""
+    },
+    ""1801"": {
+        ""caipu_x_yingyang_chengfen.id"": 1801,
+        ""yingyang_chengfen.id"": 1801,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""826.9千卡""
+    },
+    ""1802"": {
+        ""caipu_x_yingyang_chengfen.id"": 1802,
+        ""yingyang_chengfen.id"": 1802,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""74.6克""
+    },
+    ""1803"": {
+        ""caipu_x_yingyang_chengfen.id"": 1803,
+        ""yingyang_chengfen.id"": 1803,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""64.3克""
+    },
+    ""1804"": {
+        ""caipu_x_yingyang_chengfen.id"": 1804,
+        ""yingyang_chengfen.id"": 1804,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""8.76克""
+    },
+    ""1805"": {
+        ""caipu_x_yingyang_chengfen.id"": 1805,
+        ""yingyang_chengfen.id"": 1805,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""340.48微克""
+    },
+    ""1806"": {
+        ""caipu_x_yingyang_chengfen.id"": 1806,
+        ""yingyang_chengfen.id"": 1806,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.08克""
+    },
+    ""1807"": {
+        ""caipu_x_yingyang_chengfen.id"": 1807,
+        ""yingyang_chengfen.id"": 1807,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""2504.9毫克""
+    },
+    ""1808"": {
+        ""caipu_x_yingyang_chengfen.id"": 1808,
+        ""yingyang_chengfen.id"": 1808,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""713.46微克""
+    },
+    ""1810"": {
+        ""caipu_x_yingyang_chengfen.id"": 1810,
+        ""yingyang_chengfen.id"": 1810,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""10.81毫克""
+    },
+    ""1811"": {
+        ""caipu_x_yingyang_chengfen.id"": 1811,
+        ""yingyang_chengfen.id"": 1811,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""20.2微克""
+    },
+    ""1812"": {
+        ""caipu_x_yingyang_chengfen.id"": 1812,
+        ""yingyang_chengfen.id"": 1812,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.93毫克""
+    },
+    ""1813"": {
+        ""caipu_x_yingyang_chengfen.id"": 1813,
+        ""yingyang_chengfen.id"": 1813,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.4毫克""
+    },
+    ""1814"": {
+        ""caipu_x_yingyang_chengfen.id"": 1814,
+        ""yingyang_chengfen.id"": 1814,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""1.1毫克""
+    },
+    ""1815"": {
+        ""caipu_x_yingyang_chengfen.id"": 1815,
+        ""yingyang_chengfen.id"": 1815,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""269.23毫克""
+    },
+    ""1816"": {
+        ""caipu_x_yingyang_chengfen.id"": 1816,
+        ""yingyang_chengfen.id"": 1816,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""438.17毫克""
+    },
+    ""1817"": {
+        ""caipu_x_yingyang_chengfen.id"": 1817,
+        ""yingyang_chengfen.id"": 1817,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""967.36毫克""
+    },
+    ""1818"": {
+        ""caipu_x_yingyang_chengfen.id"": 1818,
+        ""yingyang_chengfen.id"": 1818,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2378.54毫克""
+    },
+    ""1819"": {
+        ""caipu_x_yingyang_chengfen.id"": 1819,
+        ""yingyang_chengfen.id"": 1819,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""81.6微克""
+    },
+    ""1820"": {
+        ""caipu_x_yingyang_chengfen.id"": 1820,
+        ""yingyang_chengfen.id"": 1820,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""83.59毫克""
+    },
+    ""1821"": {
+        ""caipu_x_yingyang_chengfen.id"": 1821,
+        ""yingyang_chengfen.id"": 1821,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""7.99毫克""
+    },
+    ""1822"": {
+        ""caipu_x_yingyang_chengfen.id"": 1822,
+        ""yingyang_chengfen.id"": 1822,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""3.72毫克""
+    },
+    ""1823"": {
+        ""caipu_x_yingyang_chengfen.id"": 1823,
+        ""yingyang_chengfen.id"": 1823,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""62.28微克""
+    },
+    ""1824"": {
+        ""caipu_x_yingyang_chengfen.id"": 1824,
+        ""yingyang_chengfen.id"": 1824,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.47毫克""
+    },
+    ""1825"": {
+        ""caipu_x_yingyang_chengfen.id"": 1825,
+        ""yingyang_chengfen.id"": 1825,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:32"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.38毫克""
+    }
+}"
+73,"2018-06-22 01:53:35",酒醉核桃仁,煮,甜味,1.汤碗内放入冰糖、蜂蜜，加水150毫升化开，再加鸡蛋清搅拌均匀；2.炒锅置中火，下水200毫升烧开，放入搅拌好的鸡蛋清糖水，再开后搅匀，撇去浮沫；3.核桃去壳，核桃仁下锅烧开，加入古井贡酒，盛入碗内即成。,"核桃 核桃不能与野鸡肉一起食用，肺炎、支气管扩张等患者不易食之。核桃不宜与酒同食。据宋.马志《开宝本草》记载：“饮酒食核桃令人咯血”。可能是因为核桃性热，多食生痰动火，而白酒也属甘辛大热，二者同食，易致血热的缘故。特别是有咯血宿疾的人，更应禁忌。如支气管扩张，肺结核患者，饮白酒即可引起咯血，不与核桃共食，亦可致病。",中餐、晚餐,此菜桃仁脆甜，古井酒香醇，沁人肺腑，回味悠长。,"皖菜 甜品/点心",核桃250克,鸡蛋清25克,"白酒50克 冰糖150克 蜂蜜25克",6,0,6,7,6,0,0,"{
+    ""73"": {
+        ""category_1_x_caipu.id"": 73,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1833"": {
+        ""caipu_x_yingyang_chengfen.id"": 1833,
+        ""yingyang_chengfen.id"": 1709,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:12"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""3.25毫克""
+    },
+    ""1826"": {
+        ""caipu_x_yingyang_chengfen.id"": 1826,
+        ""yingyang_chengfen.id"": 1826,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""2407.25千卡""
+    },
+    ""1827"": {
+        ""caipu_x_yingyang_chengfen.id"": 1827,
+        ""yingyang_chengfen.id"": 1827,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""40.25克""
+    },
+    ""1828"": {
+        ""caipu_x_yingyang_chengfen.id"": 1828,
+        ""yingyang_chengfen.id"": 1828,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""147.5克""
+    },
+    ""1829"": {
+        ""caipu_x_yingyang_chengfen.id"": 1829,
+        ""yingyang_chengfen.id"": 1829,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""216.38克""
+    },
+    ""1830"": {
+        ""caipu_x_yingyang_chengfen.id"": 1830,
+        ""yingyang_chengfen.id"": 1830,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""272.65微克""
+    },
+    ""1831"": {
+        ""caipu_x_yingyang_chengfen.id"": 1831,
+        ""yingyang_chengfen.id"": 1831,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""23.75克""
+    },
+    ""1832"": {
+        ""caipu_x_yingyang_chengfen.id"": 1832,
+        ""yingyang_chengfen.id"": 1832,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""12.5微克""
+    },
+    ""1834"": {
+        ""caipu_x_yingyang_chengfen.id"": 1834,
+        ""yingyang_chengfen.id"": 1834,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""108.03毫克""
+    },
+    ""1835"": {
+        ""caipu_x_yingyang_chengfen.id"": 1835,
+        ""yingyang_chengfen.id"": 1835,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""75微克""
+    },
+    ""1836"": {
+        ""caipu_x_yingyang_chengfen.id"": 1836,
+        ""yingyang_chengfen.id"": 1836,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.5毫克""
+    },
+    ""1837"": {
+        ""caipu_x_yingyang_chengfen.id"": 1837,
+        ""yingyang_chengfen.id"": 1837,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.44毫克""
+    },
+    ""1838"": {
+        ""caipu_x_yingyang_chengfen.id"": 1838,
+        ""yingyang_chengfen.id"": 1838,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""2.48毫克""
+    },
+    ""1839"": {
+        ""caipu_x_yingyang_chengfen.id"": 1839,
+        ""yingyang_chengfen.id"": 1839,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""178.25毫克""
+    },
+    ""1840"": {
+        ""caipu_x_yingyang_chengfen.id"": 1840,
+        ""yingyang_chengfen.id"": 1840,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""747.25毫克""
+    },
+    ""1841"": {
+        ""caipu_x_yingyang_chengfen.id"": 1841,
+        ""yingyang_chengfen.id"": 1841,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1006.5毫克""
+    },
+    ""1842"": {
+        ""caipu_x_yingyang_chengfen.id"": 1842,
+        ""yingyang_chengfen.id"": 1842,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""43.78毫克""
+    },
+    ""1843"": {
+        ""caipu_x_yingyang_chengfen.id"": 1843,
+        ""yingyang_chengfen.id"": 1843,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""26微克""
+    },
+    ""1844"": {
+        ""caipu_x_yingyang_chengfen.id"": 1844,
+        ""yingyang_chengfen.id"": 1844,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""335.25毫克""
+    },
+    ""1845"": {
+        ""caipu_x_yingyang_chengfen.id"": 1845,
+        ""yingyang_chengfen.id"": 1845,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""9.65毫克""
+    },
+    ""1846"": {
+        ""caipu_x_yingyang_chengfen.id"": 1846,
+        ""yingyang_chengfen.id"": 1846,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""6.21毫克""
+    },
+    ""1847"": {
+        ""caipu_x_yingyang_chengfen.id"": 1847,
+        ""yingyang_chengfen.id"": 1847,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""13.33微克""
+    },
+    ""1848"": {
+        ""caipu_x_yingyang_chengfen.id"": 1848,
+        ""yingyang_chengfen.id"": 1848,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""3毫克""
+    },
+    ""1849"": {
+        ""caipu_x_yingyang_chengfen.id"": 1849,
+        ""yingyang_chengfen.id"": 1849,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""8.63毫克""
+    }
+}"
+74,"2018-06-22 01:53:35",方腊鱼,其他,咸鲜味,"1.将鳜鱼以脐门后下刀剞至中刺骨，顺中刺骨片下半爿鱼肉，再将另一爿鱼肉同法片下，铲去鱼皮；2.鱼头尾和中刺骨连接在一起；3.将鱼头略拍一下，鱼肉片成0.3 厘米厚的薄片；4.青虾挤出虾仁50克塌成泥，其余的去头壳留尾壳洗净；5.猪五花肉剁成泥状；6.葱姜洗净，切成碎末，用纱布包扎挤出汁水；7.将头尾中刺骨部分和虾分别放在容器中加葱姜汁15 克、盐15 克、黄酒10 克、味精少量，搅拌上劲后，加入虾仁泥拌成馅，做成4 只小蟹形（用带尾壳的虾按成蟹爪和蟹足）；8.鱼片用盐3克、黄酒3 克、味精少量拌渍均匀；9.再将鸡蛋清25克、淀粉5 克放入抓拌使鱼片上浆上劲待用；10.另将鸡蛋清50克、淀粉5 克，调成蛋泡糊；11.将带尾壳的虾取出，用洁布吸干水分，拍上干淀粉待用；12.将4 个“小蟹”和头尾中刺骨部分（竖着摆）分别上笼蒸至成熟定型，保温待用；13.锅放在中火上加热，放人熟猪油，烧至三成热时，将带尾壳的虾逐个粘上蛋泡糊，下油中炸至外皮挺起捞出，再入四成热油重炸一次，随即捞出沥油即成高丽凤尾虾；14.原油锅用旺火烧至五成热时，将鱼片分别投入油中炸至浅金黄色捞出，再用七成热油重炸捞出沥油；15.立即将鱼头尾连中刺骨按鱼形摆好，鱼片分别排在中刺骨两边，周围撒上香菜，4 只小蟹放在大盘四角；16.同时另取锅放入熟猪油15 克烧热，放人番茄酱、白糖、醋和水150毫升熬稠起光泽时，即均匀地浇在鱼片和蟹上，立即将凤尾虾的尾部向外围在四周即成。","鸡蛋清 鸡蛋清不能与糖精、豆浆、兔肉同食。",中餐、晚餐,咸鲜为主，微有甜酸，一菜多形多味。,"皖菜 补虚养身食谱 气血双补食谱 营养不良食谱 健脾开胃食谱","鳜鱼750克 青虾350克","猪肋条肉（五花肉）50克 鸡蛋清75克","白砂糖30克 醋10克 香菜10克 淀粉(玉米)20克 番茄酱120克 盐10克 味精5克 猪油（炼制）150克 小葱25克 姜25克",5,0,8,4,4,0,0,"{
+    ""74"": {
+        ""category_1_x_caipu.id"": 74,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1862"": {
+        ""caipu_x_yingyang_chengfen.id"": 1862,
+        ""yingyang_chengfen.id"": 1536,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:39"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.47毫克""
+    },
+    ""1850"": {
+        ""caipu_x_yingyang_chengfen.id"": 1850,
+        ""yingyang_chengfen.id"": 1850,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""3151.55千卡""
+    },
+    ""1851"": {
+        ""caipu_x_yingyang_chengfen.id"": 1851,
+        ""yingyang_chengfen.id"": 1851,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""207.89克""
+    },
+    ""1852"": {
+        ""caipu_x_yingyang_chengfen.id"": 1852,
+        ""yingyang_chengfen.id"": 1852,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""214.22克""
+    },
+    ""1853"": {
+        ""caipu_x_yingyang_chengfen.id"": 1853,
+        ""yingyang_chengfen.id"": 1853,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""108.66克""
+    },
+    ""1854"": {
+        ""caipu_x_yingyang_chengfen.id"": 1854,
+        ""yingyang_chengfen.id"": 1854,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""22.13微克""
+    },
+    ""1855"": {
+        ""caipu_x_yingyang_chengfen.id"": 1855,
+        ""yingyang_chengfen.id"": 1855,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""3.68克""
+    },
+    ""1856"": {
+        ""caipu_x_yingyang_chengfen.id"": 1856,
+        ""yingyang_chengfen.id"": 1856,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1530毫克""
+    },
+    ""1857"": {
+        ""caipu_x_yingyang_chengfen.id"": 1857,
+        ""yingyang_chengfen.id"": 1857,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""553.8微克""
+    },
+    ""1858"": {
+        ""caipu_x_yingyang_chengfen.id"": 1858,
+        ""yingyang_chengfen.id"": 1858,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""11.05毫克""
+    },
+    ""1859"": {
+        ""caipu_x_yingyang_chengfen.id"": 1859,
+        ""yingyang_chengfen.id"": 1859,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""59.46毫克""
+    },
+    ""1860"": {
+        ""caipu_x_yingyang_chengfen.id"": 1860,
+        ""yingyang_chengfen.id"": 1860,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""368.5微克""
+    },
+    ""1861"": {
+        ""caipu_x_yingyang_chengfen.id"": 1861,
+        ""yingyang_chengfen.id"": 1861,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""1.33毫克""
+    },
+    ""1863"": {
+        ""caipu_x_yingyang_chengfen.id"": 1863,
+        ""yingyang_chengfen.id"": 1863,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""60.92毫克""
+    },
+    ""1864"": {
+        ""caipu_x_yingyang_chengfen.id"": 1864,
+        ""yingyang_chengfen.id"": 1864,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""842.2毫克""
+    },
+    ""1865"": {
+        ""caipu_x_yingyang_chengfen.id"": 1865,
+        ""yingyang_chengfen.id"": 1865,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""2889.75毫克""
+    },
+    ""1866"": {
+        ""caipu_x_yingyang_chengfen.id"": 1866,
+        ""yingyang_chengfen.id"": 1866,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""6172.3毫克""
+    },
+    ""1867"": {
+        ""caipu_x_yingyang_chengfen.id"": 1867,
+        ""yingyang_chengfen.id"": 1867,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""5036.44毫克""
+    },
+    ""1868"": {
+        ""caipu_x_yingyang_chengfen.id"": 1868,
+        ""yingyang_chengfen.id"": 1868,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.15微克""
+    },
+    ""1869"": {
+        ""caipu_x_yingyang_chengfen.id"": 1869,
+        ""yingyang_chengfen.id"": 1869,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""785.4毫克""
+    },
+    ""1870"": {
+        ""caipu_x_yingyang_chengfen.id"": 1870,
+        ""yingyang_chengfen.id"": 1870,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""44.02毫克""
+    },
+    ""1871"": {
+        ""caipu_x_yingyang_chengfen.id"": 1871,
+        ""yingyang_chengfen.id"": 1871,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""19.59毫克""
+    },
+    ""1872"": {
+        ""caipu_x_yingyang_chengfen.id"": 1872,
+        ""yingyang_chengfen.id"": 1872,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""269.25微克""
+    },
+    ""1873"": {
+        ""caipu_x_yingyang_chengfen.id"": 1873,
+        ""yingyang_chengfen.id"": 1873,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""13.44毫克""
+    },
+    ""1874"": {
+        ""caipu_x_yingyang_chengfen.id"": 1874,
+        ""yingyang_chengfen.id"": 1874,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:35"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""6.09毫克""
+    }
+}"
+75,"2018-06-22 01:53:37",酥炸凤翼,酥炸,炸烧味,1.先把鸡翅膀的翅尖一个个地剁掉，再于骨节弯曲处剁成两段，放在碗里；2.鸡翅段的碗里加入葱、姜（拍松）和黄酒，上笼蒸至七成烂，取出晾凉；3.晾凉后在每个鸡翅上横划一刀，剔去骨；4.糯米淘净，用冷水浸泡，上笼蒸熟；5.净芝麻炒至微黄有香味，出锅碾碎；6.熟火腿切末；7.将糯米、芝麻、火腿、盐一起搅拌均匀，做成馅心；8.鸡蛋磕在碗里搅散，加湿淀粉、面粉调成糊；9.在鸡翅骨的空隙处，一个个瓤上馅心，外面裹上一层蛋糊，再滚上一层面包屑，摆在盘中；10.炒锅置旺火上，放入熟猪油，烧至六成热时端离火口，将鸡翅逐个下锅，待全部下完后，把锅端回火上，炸至浅黄色，捞出装盘，撒上花椒盐即成。,"鸡蛋 与鹅肉同食损伤脾胃；与兔肉、柿子同食导致腹泻；同时不宜与甲鱼、鲤鱼、豆浆、茶同食。",中餐、晚餐,嚼嚼有物，似骨非骨，夹有糯米香、芝麻香、火腿香。,皖菜,鸡翅400克,"糯米15克 火腿15克 芝麻20克 面包屑50克 鸡蛋120克","盐1克 黄酒15克 椒盐5克 小麦面粉10克 小葱3克 淀粉(玉米)13克 姜3克 花生油75克",5,1,6,5,5,0,0,"{
+    ""75"": {
+        ""category_1_x_caipu.id"": 75,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1900"": {
+        ""caipu_x_yingyang_chengfen.id"": 1900,
+        ""yingyang_chengfen.id"": 1247,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:48"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.97毫克""
+    },
+    ""1887"": {
+        ""caipu_x_yingyang_chengfen.id"": 1887,
+        ""yingyang_chengfen.id"": 1331,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:09"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.64毫克""
+    },
+    ""1875"": {
+        ""caipu_x_yingyang_chengfen.id"": 1875,
+        ""yingyang_chengfen.id"": 1875,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""2059.1千卡""
+    },
+    ""1876"": {
+        ""caipu_x_yingyang_chengfen.id"": 1876,
+        ""yingyang_chengfen.id"": 1876,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""108.21克""
+    },
+    ""1877"": {
+        ""caipu_x_yingyang_chengfen.id"": 1877,
+        ""yingyang_chengfen.id"": 1877,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""142.21克""
+    },
+    ""1878"": {
+        ""caipu_x_yingyang_chengfen.id"": 1878,
+        ""yingyang_chengfen.id"": 1878,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""98.46克""
+    },
+    ""1879"": {
+        ""caipu_x_yingyang_chengfen.id"": 1879,
+        ""yingyang_chengfen.id"": 1879,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""159.26微克""
+    },
+    ""1880"": {
+        ""caipu_x_yingyang_chengfen.id"": 1880,
+        ""yingyang_chengfen.id"": 1880,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""2.69克""
+    },
+    ""1881"": {
+        ""caipu_x_yingyang_chengfen.id"": 1881,
+        ""yingyang_chengfen.id"": 1881,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1031.85毫克""
+    },
+    ""1882"": {
+        ""caipu_x_yingyang_chengfen.id"": 1882,
+        ""yingyang_chengfen.id"": 1882,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""404.74微克""
+    },
+    ""1883"": {
+        ""caipu_x_yingyang_chengfen.id"": 1883,
+        ""yingyang_chengfen.id"": 1883,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""1.06毫克""
+    },
+    ""1884"": {
+        ""caipu_x_yingyang_chengfen.id"": 1884,
+        ""yingyang_chengfen.id"": 1884,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""0.75毫克""
+    },
+    ""1885"": {
+        ""caipu_x_yingyang_chengfen.id"": 1885,
+        ""yingyang_chengfen.id"": 1885,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""43.48毫克""
+    },
+    ""1886"": {
+        ""caipu_x_yingyang_chengfen.id"": 1886,
+        ""yingyang_chengfen.id"": 1886,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""30.3微克""
+    },
+    ""1888"": {
+        ""caipu_x_yingyang_chengfen.id"": 1888,
+        ""yingyang_chengfen.id"": 1888,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.35毫克""
+    },
+    ""1889"": {
+        ""caipu_x_yingyang_chengfen.id"": 1889,
+        ""yingyang_chengfen.id"": 1889,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""20.71毫克""
+    },
+    ""1890"": {
+        ""caipu_x_yingyang_chengfen.id"": 1890,
+        ""yingyang_chengfen.id"": 1890,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""266.28毫克""
+    },
+    ""1891"": {
+        ""caipu_x_yingyang_chengfen.id"": 1891,
+        ""yingyang_chengfen.id"": 1891,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""788.08毫克""
+    },
+    ""1892"": {
+        ""caipu_x_yingyang_chengfen.id"": 1892,
+        ""yingyang_chengfen.id"": 1892,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1196.12毫克""
+    },
+    ""1893"": {
+        ""caipu_x_yingyang_chengfen.id"": 1893,
+        ""yingyang_chengfen.id"": 1893,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""1254.26毫克""
+    },
+    ""1894"": {
+        ""caipu_x_yingyang_chengfen.id"": 1894,
+        ""yingyang_chengfen.id"": 1894,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""33.47微克""
+    },
+    ""1895"": {
+        ""caipu_x_yingyang_chengfen.id"": 1895,
+        ""yingyang_chengfen.id"": 1895,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""140.81毫克""
+    },
+    ""1896"": {
+        ""caipu_x_yingyang_chengfen.id"": 1896,
+        ""yingyang_chengfen.id"": 1896,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""12.57毫克""
+    },
+    ""1897"": {
+        ""caipu_x_yingyang_chengfen.id"": 1897,
+        ""yingyang_chengfen.id"": 1897,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""4.88毫克""
+    },
+    ""1898"": {
+        ""caipu_x_yingyang_chengfen.id"": 1898,
+        ""yingyang_chengfen.id"": 1898,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""55.49微克""
+    },
+    ""1899"": {
+        ""caipu_x_yingyang_chengfen.id"": 1899,
+        ""yingyang_chengfen.id"": 1899,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.66毫克""
+    }
+}"
+76,"2018-06-22 01:53:37",古井醉鸡,腌,糟香味,"1.将活母鸡宰杀，流尽血水；2.待鸡完全死后，用80℃～90℃的水烫泡，不要碰破鸡皮，将毛煺净，从脊背开刀，掏去内脏和嗉囊，用清水冲洗，沥水，放置七八个小时后使用；3.烧一锅沸水，将鸡放入，氽约10 分钟，捞起洗净，剁去头和爪；4.另取砂锅一只，放入整鸡，注入清水，淹没鸡身，置锅于大火上烧；5.待烧开后，撇去浮沫，转小火炖约40 分钟，待鸡达到六成熟时，捞出晾干水分；6.将鸡身沿背部一剖两半，再把半个鸡身平分两块，鸡身分成四块，放盘中备用；7.再取一只汤碗，放入冷鸡汤；8.姜洗净切片，葱洗净切象眼块；9.姜片、葱块同味精、花椒、白酒（古井贡酒）一起放入鸡汤碗内，搅拌均匀，放入鸡块；10.然后取一重物将鸡压入汤中；11.用盘子把碗盖严，浸泡约4 小时，揭去盘子，去重物将鸡块取出，斜刀片切成长方条形，一只鸡约可切成16 块；12.整齐地码放于盘中，形状如馒头；13.最后滗入少许醉鸡的卤汁即可上桌。",,中餐、晚餐,此醉鸡，鲜美嫩滑，具有浓厚的古井酒香。,"皖菜 月经不调食谱 肢寒畏冷食谱 营养不良食谱",母鸡1250克,,"盐5克 白酒50克 味精2克 姜30克 花椒10克 小葱30克",5,0,6,4,1,0,0,"{
+    ""76"": {
+        ""category_1_x_caipu.id"": 76,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1920"": {
+        ""caipu_x_yingyang_chengfen.id"": 1920,
+        ""yingyang_chengfen.id"": 1493,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:34"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""16.87毫克""
+    },
+    ""1901"": {
+        ""caipu_x_yingyang_chengfen.id"": 1901,
+        ""yingyang_chengfen.id"": 1901,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""3399.66千卡""
+    },
+    ""1902"": {
+        ""caipu_x_yingyang_chengfen.id"": 1902,
+        ""yingyang_chengfen.id"": 1902,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""256.09克""
+    },
+    ""1903"": {
+        ""caipu_x_yingyang_chengfen.id"": 1903,
+        ""yingyang_chengfen.id"": 1903,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""211.19克""
+    },
+    ""1904"": {
+        ""caipu_x_yingyang_chengfen.id"": 1904,
+        ""yingyang_chengfen.id"": 1904,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""84.24克""
+    },
+    ""1905"": {
+        ""caipu_x_yingyang_chengfen.id"": 1905,
+        ""yingyang_chengfen.id"": 1905,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""11.7微克""
+    },
+    ""1906"": {
+        ""caipu_x_yingyang_chengfen.id"": 1906,
+        ""yingyang_chengfen.id"": 1906,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""4.1克""
+    },
+    ""1907"": {
+        ""caipu_x_yingyang_chengfen.id"": 1907,
+        ""yingyang_chengfen.id"": 1907,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""2075毫克""
+    },
+    ""1908"": {
+        ""caipu_x_yingyang_chengfen.id"": 1908,
+        ""yingyang_chengfen.id"": 1908,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""1790.2微克""
+    },
+    ""1909"": {
+        ""caipu_x_yingyang_chengfen.id"": 1909,
+        ""yingyang_chengfen.id"": 1909,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""7.5毫克""
+    },
+    ""1910"": {
+        ""caipu_x_yingyang_chengfen.id"": 1910,
+        ""yingyang_chengfen.id"": 1910,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""17.14毫克""
+    },
+    ""1911"": {
+        ""caipu_x_yingyang_chengfen.id"": 1911,
+        ""yingyang_chengfen.id"": 1911,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""317微克""
+    },
+    ""1912"": {
+        ""caipu_x_yingyang_chengfen.id"": 1912,
+        ""yingyang_chengfen.id"": 1912,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.58毫克""
+    },
+    ""1913"": {
+        ""caipu_x_yingyang_chengfen.id"": 1913,
+        ""yingyang_chengfen.id"": 1913,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.67毫克""
+    },
+    ""1914"": {
+        ""caipu_x_yingyang_chengfen.id"": 1914,
+        ""yingyang_chengfen.id"": 1914,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""110.68毫克""
+    },
+    ""1915"": {
+        ""caipu_x_yingyang_chengfen.id"": 1915,
+        ""yingyang_chengfen.id"": 1915,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""122.2毫克""
+    },
+    ""1916"": {
+        ""caipu_x_yingyang_chengfen.id"": 1916,
+        ""yingyang_chengfen.id"": 1916,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1529.28毫克""
+    },
+    ""1917"": {
+        ""caipu_x_yingyang_chengfen.id"": 1917,
+        ""yingyang_chengfen.id"": 1917,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""3592.58毫克""
+    },
+    ""1918"": {
+        ""caipu_x_yingyang_chengfen.id"": 1918,
+        ""yingyang_chengfen.id"": 1918,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2922.38毫克""
+    },
+    ""1919"": {
+        ""caipu_x_yingyang_chengfen.id"": 1919,
+        ""yingyang_chengfen.id"": 1919,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""230.44毫克""
+    },
+    ""1921"": {
+        ""caipu_x_yingyang_chengfen.id"": 1921,
+        ""yingyang_chengfen.id"": 1921,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""19.04毫克""
+    },
+    ""1922"": {
+        ""caipu_x_yingyang_chengfen.id"": 1922,
+        ""yingyang_chengfen.id"": 1922,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""0.75微克""
+    },
+    ""1923"": {
+        ""caipu_x_yingyang_chengfen.id"": 1923,
+        ""yingyang_chengfen.id"": 1923,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""1.3毫克""
+    },
+    ""1924"": {
+        ""caipu_x_yingyang_chengfen.id"": 1924,
+        ""yingyang_chengfen.id"": 1924,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:37"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""1.88毫克""
+    }
+}"
+77,"2018-06-22 01:53:45",干贝萝卜,隔水炖,咸鲜味,1.将干贝洗去浮灰，置碗内，加入黄酒和水50毫升，上笼蒸烂取出搓散，汤滤去沉渣留用；2.选生瘦火腿，切成2厘米宽、5厘米长的片；3.小圆萝卜洗净，剥皮，削成圆柱打成齿轮形花，再切成0.5厘米厚齿轮形的片；4.炒锅放在旺火上，放入熟猪油，烧至四成热时，下萝卜片，炸至发软捞出沥油；5.取碗1只，碗底中间放干贝，旁边围火腿，再将萝卜片排放汤碗中，加入鸡汤300毫升和蒸干贝的汤以及冰糖、精盐上笼用旺火蒸约45分钟取出，先将原汁滗入锅中，另取一汤盘在碗上翻身扣在盘中；6.锅中原汁加湿淀粉调稀勾芡，淋入熟猪油10克，撒上葱末，芡浇在上面即可。,"白萝卜 白萝卜忌人参、西洋参同食。",中餐、晚餐,清淡、干鲜、爽口。,"皖菜 健脾开胃食谱 理气调理食谱","干贝12克 白萝卜500克",火腿10克,"黄酒15克 淀粉(玉米)5克 冰糖2克 小葱5克 猪油（炼制）70克",4,0,6,5,3,0,3,"{
+    ""77"": {
+        ""category_1_x_caipu.id"": 77,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1944"": {
+        ""caipu_x_yingyang_chengfen.id"": 1944,
+        ""yingyang_chengfen.id"": 265,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:48:46"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.36微克""
+    },
+    ""1933"": {
+        ""caipu_x_yingyang_chengfen.id"": 1933,
+        ""yingyang_chengfen.id"": 409,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:18"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.01毫克""
+    },
+    ""1938"": {
+        ""caipu_x_yingyang_chengfen.id"": 1938,
+        ""yingyang_chengfen.id"": 1080,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:51:25"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.13毫克""
+    },
+    ""1925"": {
+        ""caipu_x_yingyang_chengfen.id"": 1925,
+        ""yingyang_chengfen.id"": 1925,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""798.17千卡""
+    },
+    ""1926"": {
+        ""caipu_x_yingyang_chengfen.id"": 1926,
+        ""yingyang_chengfen.id"": 1926,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""13.1克""
+    },
+    ""1927"": {
+        ""caipu_x_yingyang_chengfen.id"": 1927,
+        ""yingyang_chengfen.id"": 1927,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""70.87克""
+    },
+    ""1928"": {
+        ""caipu_x_yingyang_chengfen.id"": 1928,
+        ""yingyang_chengfen.id"": 1928,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""32.4克""
+    },
+    ""1929"": {
+        ""caipu_x_yingyang_chengfen.id"": 1929,
+        ""yingyang_chengfen.id"": 1929,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""139微克""
+    },
+    ""1930"": {
+        ""caipu_x_yingyang_chengfen.id"": 1930,
+        ""yingyang_chengfen.id"": 1930,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""5.08克""
+    },
+    ""1931"": {
+        ""caipu_x_yingyang_chengfen.id"": 1931,
+        ""yingyang_chengfen.id"": 1931,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""110.76毫克""
+    },
+    ""1932"": {
+        ""caipu_x_yingyang_chengfen.id"": 1932,
+        ""yingyang_chengfen.id"": 1932,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""46.82微克""
+    },
+    ""1934"": {
+        ""caipu_x_yingyang_chengfen.id"": 1934,
+        ""yingyang_chengfen.id"": 1934,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""106.05毫克""
+    },
+    ""1935"": {
+        ""caipu_x_yingyang_chengfen.id"": 1935,
+        ""yingyang_chengfen.id"": 1935,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""8.5毫克""
+    },
+    ""1936"": {
+        ""caipu_x_yingyang_chengfen.id"": 1936,
+        ""yingyang_chengfen.id"": 1936,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""142微克""
+    },
+    ""1937"": {
+        ""caipu_x_yingyang_chengfen.id"": 1937,
+        ""yingyang_chengfen.id"": 1937,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.22毫克""
+    },
+    ""1939"": {
+        ""caipu_x_yingyang_chengfen.id"": 1939,
+        ""yingyang_chengfen.id"": 1939,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""2.5毫克""
+    },
+    ""1940"": {
+        ""caipu_x_yingyang_chengfen.id"": 1940,
+        ""yingyang_chengfen.id"": 1940,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""200.95毫克""
+    },
+    ""1941"": {
+        ""caipu_x_yingyang_chengfen.id"": 1941,
+        ""yingyang_chengfen.id"": 1941,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""226.28毫克""
+    },
+    ""1942"": {
+        ""caipu_x_yingyang_chengfen.id"": 1942,
+        ""yingyang_chengfen.id"": 1942,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1010.15毫克""
+    },
+    ""1943"": {
+        ""caipu_x_yingyang_chengfen.id"": 1943,
+        ""yingyang_chengfen.id"": 1943,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""494.57毫克""
+    },
+    ""1945"": {
+        ""caipu_x_yingyang_chengfen.id"": 1945,
+        ""yingyang_chengfen.id"": 1945,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""97.31毫克""
+    },
+    ""1946"": {
+        ""caipu_x_yingyang_chengfen.id"": 1946,
+        ""yingyang_chengfen.id"": 1946,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""3.66毫克""
+    },
+    ""1947"": {
+        ""caipu_x_yingyang_chengfen.id"": 1947,
+        ""yingyang_chengfen.id"": 1947,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""2.42毫克""
+    },
+    ""1948"": {
+        ""caipu_x_yingyang_chengfen.id"": 1948,
+        ""yingyang_chengfen.id"": 1948,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""13.2微克""
+    },
+    ""1949"": {
+        ""caipu_x_yingyang_chengfen.id"": 1949,
+        ""yingyang_chengfen.id"": 1949,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.24毫克""
+    },
+    ""1950"": {
+        ""caipu_x_yingyang_chengfen.id"": 1950,
+        ""yingyang_chengfen.id"": 1950,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:45"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.56毫克""
+    }
+}"
+78,"2018-06-22 01:53:48",牛蹄花,烧,咸鲜味,1.选用圆柱形蹄筋洗净，切成长4厘米的段，用刀在一端交叉着切3刀，成为6瓣；2.另一端留1.3厘米不切；3.红辣椒切成小片；4.青蒜斜切成长1.6厘米的小段；5.牛肉用刀剔去筋膜，切成长5厘米的薄片，放在碗里，加鸡蛋清，湿淀粉浆拌好；6.竹笋切成片；7.炒锅放在中火上，放入鸭油烧热，先下蹄筋煸炒，然后加入牛肉卤汁（150克）、笋片、酱油、盐、黄酒、白糖、青蒜、红辣椒及姜末；8.待烧烩入味后，及时将浆拌好的牛肉片放入拨开，再烧烩半分钟左右，加入味精，用湿淀粉调稀勾薄芡，淋上剩余的熟鸭油起锅即成。,"鸡蛋 与鹅肉同食损伤脾胃；与兔肉、柿子同食导致腹泻；同时不宜与甲鱼、鲤鱼、豆浆、茶同食。",中餐、晚餐,此菜色红润，蹄筋质地弹韧而柔滑，醇香可口，牛肉鲜嫩。由于蹄筋一端刀花张开如花朵，故名蹄花。,"皖菜 骨质疏松食谱 贫血食谱 青少年食谱 补虚养身食谱",牛蹄筋500克,"牛里脊肉100克 鸡蛋50克 竹笋75克","青蒜5克 姜5克 辣椒(红、尖、干)4克 酱油40克 盐2克 白砂糖2克 黄酒15克 味精1克 淀粉(玉米)10克 鸭油75克",7,3,8,6,5,0,6,"{
+    ""78"": {
+        ""category_1_x_caipu.id"": 78,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""1975"": {
+        ""caipu_x_yingyang_chengfen.id"": 1975,
+        ""yingyang_chengfen.id"": 475,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:33"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.23毫克""
+    },
+    ""1956"": {
+        ""caipu_x_yingyang_chengfen.id"": 1956,
+        ""yingyang_chengfen.id"": 1554,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:43"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""3.33克""
+    },
+    ""1951"": {
+        ""caipu_x_yingyang_chengfen.id"": 1951,
+        ""yingyang_chengfen.id"": 1951,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1052.56千卡""
+    },
+    ""1952"": {
+        ""caipu_x_yingyang_chengfen.id"": 1952,
+        ""yingyang_chengfen.id"": 1952,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""205.19克""
+    },
+    ""1953"": {
+        ""caipu_x_yingyang_chengfen.id"": 1953,
+        ""yingyang_chengfen.id"": 1953,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""12.63克""
+    },
+    ""1954"": {
+        ""caipu_x_yingyang_chengfen.id"": 1954,
+        ""yingyang_chengfen.id"": 1954,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""34.84克""
+    },
+    ""1955"": {
+        ""caipu_x_yingyang_chengfen.id"": 1955,
+        ""yingyang_chengfen.id"": 1955,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""63.9微克""
+    },
+    ""1957"": {
+        ""caipu_x_yingyang_chengfen.id"": 1957,
+        ""yingyang_chengfen.id"": 1957,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""336.5毫克""
+    },
+    ""1958"": {
+        ""caipu_x_yingyang_chengfen.id"": 1958,
+        ""yingyang_chengfen.id"": 1958,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""123.3微克""
+    },
+    ""1959"": {
+        ""caipu_x_yingyang_chengfen.id"": 1959,
+        ""yingyang_chengfen.id"": 1959,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.33毫克""
+    },
+    ""1960"": {
+        ""caipu_x_yingyang_chengfen.id"": 1960,
+        ""yingyang_chengfen.id"": 1960,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""4.75毫克""
+    },
+    ""1961"": {
+        ""caipu_x_yingyang_chengfen.id"": 1961,
+        ""yingyang_chengfen.id"": 1961,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""1.35毫克""
+    },
+    ""1962"": {
+        ""caipu_x_yingyang_chengfen.id"": 1962,
+        ""yingyang_chengfen.id"": 1962,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""38微克""
+    },
+    ""1963"": {
+        ""caipu_x_yingyang_chengfen.id"": 1963,
+        ""yingyang_chengfen.id"": 1963,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""1毫克""
+    },
+    ""1964"": {
+        ""caipu_x_yingyang_chengfen.id"": 1964,
+        ""yingyang_chengfen.id"": 1964,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.56毫克""
+    },
+    ""1965"": {
+        ""caipu_x_yingyang_chengfen.id"": 1965,
+        ""yingyang_chengfen.id"": 1965,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""11.28毫克""
+    },
+    ""1966"": {
+        ""caipu_x_yingyang_chengfen.id"": 1966,
+        ""yingyang_chengfen.id"": 1966,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""101.97毫克""
+    },
+    ""1967"": {
+        ""caipu_x_yingyang_chengfen.id"": 1967,
+        ""yingyang_chengfen.id"": 1967,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1205.87毫克""
+    },
+    ""1968"": {
+        ""caipu_x_yingyang_chengfen.id"": 1968,
+        ""yingyang_chengfen.id"": 1968,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""830.22毫克""
+    },
+    ""1969"": {
+        ""caipu_x_yingyang_chengfen.id"": 1969,
+        ""yingyang_chengfen.id"": 1969,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""4082.56毫克""
+    },
+    ""1970"": {
+        ""caipu_x_yingyang_chengfen.id"": 1970,
+        ""yingyang_chengfen.id"": 1970,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""15.06微克""
+    },
+    ""1971"": {
+        ""caipu_x_yingyang_chengfen.id"": 1971,
+        ""yingyang_chengfen.id"": 1971,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""158.46毫克""
+    },
+    ""1972"": {
+        ""caipu_x_yingyang_chengfen.id"": 1972,
+        ""yingyang_chengfen.id"": 1972,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""22.1毫克""
+    },
+    ""1973"": {
+        ""caipu_x_yingyang_chengfen.id"": 1973,
+        ""yingyang_chengfen.id"": 1973,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""7.35毫克""
+    },
+    ""1974"": {
+        ""caipu_x_yingyang_chengfen.id"": 1974,
+        ""yingyang_chengfen.id"": 1974,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""20.12微克""
+    },
+    ""1976"": {
+        ""caipu_x_yingyang_chengfen.id"": 1976,
+        ""yingyang_chengfen.id"": 1976,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:48"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""2.01毫克""
+    }
+}"
+79,"2018-06-22 01:53:52",腰夹,蒸,咸鲜味,1.将猪腰洗净，撕去皮膜，剖成两半，片去腰臊，每半个腰子再片成8片，用开水略烫一下，平摊在案板上，撒上干淀粉拌匀；2.将鸡脯肉剁成泥；3.蘑菇、火腿切成末，一起放在碗里，加鸡蛋清、黄酒、精盐、白胡椒粉、水和干淀粉，搅拌成馅；4.将鸡肉馅挤成丸子，逐个放入腰片上，用1个腰片盖上，用手轻轻压平，使其粘合；5.取盘子1个，盘内抹上芝麻油，放入腰夹，上笼蒸10分钟左右取出；6.炒锅放在旺火上，放入鸡清汤（200克），加盐烧开，再加味精，用湿淀粉调稀勾薄芡，淋入熟猪油，浇在腰夹上即成。,"鸡蛋清 鸡蛋清不能与糖精、豆浆、兔肉同食。",中餐、晚餐,此菜腰片嫩，鸡肉鲜，馅心配以蘑菇、火腿，味美爽口。,"皖菜 壮腰健肾食谱 贫血食谱 耳鸣食谱 补虚养身食谱",猪腰子400克,"鸡胸脯肉200克 蘑菇(鲜蘑)30克 火腿15克 鸡蛋清50克 淀粉(玉米)300克","盐3克 黄酒15克 味精2克 胡椒粉1克 香油15克 猪油（炼制）10克",7,0,8,5,4,0,0,"{
+    ""79"": {
+        ""category_1_x_caipu.id"": 79,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""2002"": {
+        ""caipu_x_yingyang_chengfen.id"": 2002,
+        ""yingyang_chengfen.id"": 297,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:48:55"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""0.33毫克""
+    },
+    ""1985"": {
+        ""caipu_x_yingyang_chengfen.id"": 1985,
+        ""yingyang_chengfen.id"": 409,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:18"",
+        ""yingyang_chengfen.key"": ""维生素B6"",
+        ""yingyang_chengfen.value"": ""0.01毫克""
+    },
+    ""2001"": {
+        ""caipu_x_yingyang_chengfen.id"": 2001,
+        ""yingyang_chengfen.id"": 577,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:51"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""0.65毫克""
+    },
+    ""1996"": {
+        ""caipu_x_yingyang_chengfen.id"": 1996,
+        ""yingyang_chengfen.id"": 1593,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:52:44"",
+        ""yingyang_chengfen.key"": ""碘"",
+        ""yingyang_chengfen.value"": ""0.62微克""
+    },
+    ""1977"": {
+        ""caipu_x_yingyang_chengfen.id"": 1977,
+        ""yingyang_chengfen.id"": 1977,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""1921.28千卡""
+    },
+    ""1978"": {
+        ""caipu_x_yingyang_chengfen.id"": 1978,
+        ""yingyang_chengfen.id"": 1978,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""115.67克""
+    },
+    ""1979"": {
+        ""caipu_x_yingyang_chengfen.id"": 1979,
+        ""yingyang_chengfen.id"": 1979,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""43.03克""
+    },
+    ""1980"": {
+        ""caipu_x_yingyang_chengfen.id"": 1980,
+        ""yingyang_chengfen.id"": 1980,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""266.78克""
+    },
+    ""1981"": {
+        ""caipu_x_yingyang_chengfen.id"": 1981,
+        ""yingyang_chengfen.id"": 1981,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""41.16微克""
+    },
+    ""1982"": {
+        ""caipu_x_yingyang_chengfen.id"": 1982,
+        ""yingyang_chengfen.id"": 1982,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""0.95克""
+    },
+    ""1983"": {
+        ""caipu_x_yingyang_chengfen.id"": 1983,
+        ""yingyang_chengfen.id"": 1983,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""胆固醇"",
+        ""yingyang_chengfen.value"": ""1899.15毫克""
+    },
+    ""1984"": {
+        ""caipu_x_yingyang_chengfen.id"": 1984,
+        ""yingyang_chengfen.id"": 1984,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""198.3微克""
+    },
+    ""1986"": {
+        ""caipu_x_yingyang_chengfen.id"": 1986,
+        ""yingyang_chengfen.id"": 1986,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""0.6毫克""
+    },
+    ""1987"": {
+        ""caipu_x_yingyang_chengfen.id"": 1987,
+        ""yingyang_chengfen.id"": 1987,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""11.67毫克""
+    },
+    ""1988"": {
+        ""caipu_x_yingyang_chengfen.id"": 1988,
+        ""yingyang_chengfen.id"": 1988,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""3.6微克""
+    },
+    ""1989"": {
+        ""caipu_x_yingyang_chengfen.id"": 1989,
+        ""yingyang_chengfen.id"": 1989,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""5.39毫克""
+    },
+    ""1990"": {
+        ""caipu_x_yingyang_chengfen.id"": 1990,
+        ""yingyang_chengfen.id"": 1990,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""1.05毫克""
+    },
+    ""1991"": {
+        ""caipu_x_yingyang_chengfen.id"": 1991,
+        ""yingyang_chengfen.id"": 1991,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""27.13毫克""
+    },
+    ""1992"": {
+        ""caipu_x_yingyang_chengfen.id"": 1992,
+        ""yingyang_chengfen.id"": 1992,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""124.03毫克""
+    },
+    ""1993"": {
+        ""caipu_x_yingyang_chengfen.id"": 1993,
+        ""yingyang_chengfen.id"": 1993,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""1430.3毫克""
+    },
+    ""1994"": {
+        ""caipu_x_yingyang_chengfen.id"": 1994,
+        ""yingyang_chengfen.id"": 1994,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""1759.64毫克""
+    },
+    ""1995"": {
+        ""caipu_x_yingyang_chengfen.id"": 1995,
+        ""yingyang_chengfen.id"": 1995,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""2230.79毫克""
+    },
+    ""1997"": {
+        ""caipu_x_yingyang_chengfen.id"": 1997,
+        ""yingyang_chengfen.id"": 1997,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""178.18毫克""
+    },
+    ""1998"": {
+        ""caipu_x_yingyang_chengfen.id"": 1998,
+        ""yingyang_chengfen.id"": 1998,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""15.18毫克""
+    },
+    ""1999"": {
+        ""caipu_x_yingyang_chengfen.id"": 1999,
+        ""yingyang_chengfen.id"": 1999,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""14.61毫克""
+    },
+    ""2000"": {
+        ""caipu_x_yingyang_chengfen.id"": 2000,
+        ""yingyang_chengfen.id"": 2000,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:52"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""657.13微克""
+    }
+}"
+80,"2018-06-22 01:53:58",拌问政山笋,拌,酸甜味,"1.将笋（问政山笋）削去根，剥掉外壳，削去笋皮，清洗干净；2.将净笋切成直径2 毫米、长5 厘米的细丝，剩余下的脚料可做它用；3.将切好的笋丝在锅内焯约2 分钟，捞出控尽水，整齐地装入盘中，晾凉备用；4.取一只小碗，将醋、盐、糖、味精、香油放入化开调匀，浇在笋上，吃时拌匀。",,中餐、晚餐,笋味微甜，脆嫩可口。,"皖菜 健脾开胃食谱 滋阴食谱 祛痰食谱 明目食谱",春笋1000克,,"盐2克 白砂糖20克 味精0克 香油20克",7,0,7,7,7,0,0,"{
+    ""80"": {
+        ""category_1_x_caipu.id"": 80,
+        ""category_1.id"": 8,
+        ""category_1.ts"": ""2018-06-21 23:14:30"",
+        ""category_1.title"": ""皖菜""
+    }
+}","{
+    ""2013"": {
+        ""caipu_x_yingyang_chengfen.id"": 2013,
+        ""yingyang_chengfen.id"": 258,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:48:46"",
+        ""yingyang_chengfen.key"": ""核黄素"",
+        ""yingyang_chengfen.value"": ""0.4毫克""
+    },
+    ""2004"": {
+        ""caipu_x_yingyang_chengfen.id"": 2004,
+        ""yingyang_chengfen.id"": 454,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:49:33"",
+        ""yingyang_chengfen.key"": ""蛋白质"",
+        ""yingyang_chengfen.value"": ""24克""
+    },
+    ""2003"": {
+        ""caipu_x_yingyang_chengfen.id"": 2003,
+        ""yingyang_chengfen.id"": 2003,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""能量"",
+        ""yingyang_chengfen.value"": ""459.6千卡""
+    },
+    ""2005"": {
+        ""caipu_x_yingyang_chengfen.id"": 2005,
+        ""yingyang_chengfen.id"": 2005,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""脂肪"",
+        ""yingyang_chengfen.value"": ""20.94克""
+    },
+    ""2006"": {
+        ""caipu_x_yingyang_chengfen.id"": 2006,
+        ""yingyang_chengfen.id"": 2006,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""碳水化合物"",
+        ""yingyang_chengfen.value"": ""71.02克""
+    },
+    ""2007"": {
+        ""caipu_x_yingyang_chengfen.id"": 2007,
+        ""yingyang_chengfen.id"": 2007,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""叶酸"",
+        ""yingyang_chengfen.value"": ""0.38微克""
+    },
+    ""2008"": {
+        ""caipu_x_yingyang_chengfen.id"": 2008,
+        ""yingyang_chengfen.id"": 2008,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""膳食纤维"",
+        ""yingyang_chengfen.value"": ""28克""
+    },
+    ""2009"": {
+        ""caipu_x_yingyang_chengfen.id"": 2009,
+        ""yingyang_chengfen.id"": 2009,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""维生素A"",
+        ""yingyang_chengfen.value"": ""50微克""
+    },
+    ""2010"": {
+        ""caipu_x_yingyang_chengfen.id"": 2010,
+        ""yingyang_chengfen.id"": 2010,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""维生素C"",
+        ""yingyang_chengfen.value"": ""50毫克""
+    },
+    ""2011"": {
+        ""caipu_x_yingyang_chengfen.id"": 2011,
+        ""yingyang_chengfen.id"": 2011,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""维生素E"",
+        ""yingyang_chengfen.value"": ""13.96毫克""
+    },
+    ""2012"": {
+        ""caipu_x_yingyang_chengfen.id"": 2012,
+        ""yingyang_chengfen.id"": 2012,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""胡萝卜素"",
+        ""yingyang_chengfen.value"": ""300微克""
+    },
+    ""2014"": {
+        ""caipu_x_yingyang_chengfen.id"": 2014,
+        ""yingyang_chengfen.id"": 2014,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""硫胺素"",
+        ""yingyang_chengfen.value"": ""0.5毫克""
+    },
+    ""2015"": {
+        ""caipu_x_yingyang_chengfen.id"": 2015,
+        ""yingyang_chengfen.id"": 2015,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""烟酸"",
+        ""yingyang_chengfen.value"": ""4毫克""
+    },
+    ""2016"": {
+        ""caipu_x_yingyang_chengfen.id"": 2016,
+        ""yingyang_chengfen.id"": 2016,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""钙"",
+        ""yingyang_chengfen.value"": ""84.44毫克""
+    },
+    ""2017"": {
+        ""caipu_x_yingyang_chengfen.id"": 2017,
+        ""yingyang_chengfen.id"": 2017,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""磷"",
+        ""yingyang_chengfen.value"": ""361.6毫克""
+    },
+    ""2018"": {
+        ""caipu_x_yingyang_chengfen.id"": 2018,
+        ""yingyang_chengfen.id"": 2018,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""钾"",
+        ""yingyang_chengfen.value"": ""3001.28毫克""
+    },
+    ""2019"": {
+        ""caipu_x_yingyang_chengfen.id"": 2019,
+        ""yingyang_chengfen.id"": 2019,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""钠"",
+        ""yingyang_chengfen.value"": ""846.36毫克""
+    },
+    ""2020"": {
+        ""caipu_x_yingyang_chengfen.id"": 2020,
+        ""yingyang_chengfen.id"": 2020,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""镁"",
+        ""yingyang_chengfen.value"": ""80.64毫克""
+    },
+    ""2021"": {
+        ""caipu_x_yingyang_chengfen.id"": 2021,
+        ""yingyang_chengfen.id"": 2021,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""铁"",
+        ""yingyang_chengfen.value"": ""24.18毫克""
+    },
+    ""2022"": {
+        ""caipu_x_yingyang_chengfen.id"": 2022,
+        ""yingyang_chengfen.id"": 2022,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""锌"",
+        ""yingyang_chengfen.value"": ""4.34毫克""
+    },
+    ""2023"": {
+        ""caipu_x_yingyang_chengfen.id"": 2023,
+        ""yingyang_chengfen.id"": 2023,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""硒"",
+        ""yingyang_chengfen.value"": ""6.62微克""
+    },
+    ""2024"": {
+        ""caipu_x_yingyang_chengfen.id"": 2024,
+        ""yingyang_chengfen.id"": 2024,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""铜"",
+        ""yingyang_chengfen.value"": ""1.51毫克""
+    },
+    ""2025"": {
+        ""caipu_x_yingyang_chengfen.id"": 2025,
+        ""yingyang_chengfen.id"": 2025,
+        ""yingyang_chengfen.ts"": ""2018-06-22 01:53:58"",
+        ""yingyang_chengfen.key"": ""锰"",
+        ""yingyang_chengfen.value"": ""7.83毫克""
+    }
+}"

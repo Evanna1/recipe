@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菜谱详情</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .background-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .background-image {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.8;
+        }
+
+        @keyframes moveImage {
+            0% {
+                transform: translate(var(--start-x), var(--start-y)) scale(1);
+            }
+            25% {
+                transform: translate(var(--mid-x1), var(--mid-y1)) scale(1.2);
+            }
+            50% {
+                transform: translate(var(--mid-x2), var(--mid-y2)) scale(1);
+            }
+            75% {
+                transform: translate(var(--mid-x3), var(--mid-y3)) scale(0.8);
+            }
+            100% {
+                transform: translate(var(--end-x), var(--end-y)) scale(1);
+            }
+        }
+
+        #recipe-detail {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            z-index: 10;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            color: #ff704d;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: #f5b300;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 12px;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* 所有卡片样式（推荐餐时、口味等信息） */
+        .info-card {
+            background-color: #fdf3e0; /* 奶黄色背景 */
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* 卡片悬停效果 */
+        .info-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* 做法的卡片 */
+        .method-card {
+            background-color: #fdf3e0;  /* 奶黄色背景 */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        /* 小标签样式 */
+        .method-card .method-label {
+            background-color: #ffcc66; /* 柔和的橙色 */
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+        .recipe-image {
+            display: block;
+            width: 500px;
+            height: 400px;
+            margin: 10px auto; 
+            border-radius: 16px;
+            object-fit: cover; 
+        }
+        .custom-card {
+            background-color: #fdf3e0;  /* 奶黄色背景 */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        /* 卡片悬停效果 */
+        .custom-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* 页面内容 */
+        #nutrition-container {
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #fff3e6;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 0.85rem;
+            margin-top: 20px;
+        }
+
+        /* 营养成分表标题 */
+        #nutrition-container h3 {
+            color: #ff9966;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* 每个营养成分的卡片 */
+        .nutrition-card {
+            display: inline-block;
+            background-color: #ffd9b3;
+            border-radius: 8px;
+            margin: 8px;
+            padding: 12px;
+            width: 120px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        /* 鼠标悬停时放大卡片 */
+        .nutrition-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* 营养成分名称 */
+        .nutrition-card .nutrition-key {
+            font-size: 1rem;
+            color: #ff704d;
+            margin-bottom: 8px;
+        }
+
+        /* 营养成分数值 */
+        .nutrition-card .nutrition-value {
+            font-size: 1.1rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background-images">
+        <div class="background-image" id="bg1" style="background-image: url('background/1.jpg'); animation: moveImage 20s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg2" style="background-image: url('background/2.jpg'); animation: moveImage 18s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg3" style="background-image: url('background/3.jpg'); animation: moveImage 25s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg4" style="background-image: url('background/4.jpg'); animation: moveImage 22s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg5" style="background-image: url('background/5.jpg'); animation: moveImage 27s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg6" style="background-image: url('background/6.jpg'); animation: moveImage 20s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg7" style="background-image: url('background/7.jpg'); animation: moveImage 24s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg8" style="background-image: url('background/8.jpg'); animation: moveImage 30s infinite ease-in-out;"></div>
+        <div class="background-image" id="bg9" style="background-image: url('background/9.jpg'); animation: moveImage 28s infinite ease-in-out;"></div>
+    </div>
+
+    <div id="recipe-detail">
+        <div id="recipe-detail-content"></div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const recipeId = urlParams.get('id');
+
+        let recipes = [];
+
+        function loadCSV(page) {
+            const filePath = `${page}.csv`;
+            return new Promise((resolve, reject) => {
+                Papa.parse(filePath, {
+                    download: true,
+                    header: true,
+                    skipEmptyLines: true,
+                    complete: function(results) {
+                        const parsedRecipes = parseRecipes(results.data);
+                        resolve(parsedRecipes);
+                    },
+                    error: function(error) {
+                        reject(error);
+                    }
+                });
+            });
+        }
+
+        function parseRecipes(data) {
+            return data.map(row => {
+                let category = '';
+                try {
+                    const categoryObj = JSON.parse(row['caipu.category_1_x_caipu_id']);
+                    const categoryId = row['caipu.id'];
+                    category = categoryObj[categoryId]?.["category_1.title"] || '未知类别';
+                } catch (e) {
+                    console.error('解析 category 字段出错:', e);
+                    category = '未知类别';
+                }
+
+                let nutrition2 = [];
+                const nutritionData = row['caipu.caipu_x_yingyang_chengfen_id'];
+                if (nutritionData && typeof nutritionData === 'string') {
+                    try {
+                        const nutritionObj = JSON.parse(nutritionData);
+                        Object.values(nutritionObj).forEach(item => {
+                            if (item['yingyang_chengfen.key'] && item['yingyang_chengfen.value']) {
+                                const key = item['yingyang_chengfen.key'];
+                                const value = item['yingyang_chengfen.value'];
+                                nutrition2.push({ [key]: value });
+                            }
+                        });
+                    } catch (e) {
+                        console.error('解析营养成分数据出错:', e);
+                    }
+                }
+
+                let xiangkeShiwus = row['caipu.xiangke_shiwu'] ? row['caipu.xiangke_shiwu'] : '无';
+
+                return {
+                    id: row['caipu.id'],
+                    time: row['caipu.shiyong'],
+                    title: row['caipu.title'],
+                    gongyi: row['caipu.gongyi'],
+                    kouwei: row['caipu.kouwei'],
+                    zuofa: row['caipu.zuofa'],
+                    xiangke_shiwu: xiangkeShiwus,
+                    ingredients: row['caipu.zhuliao'] + '' + row['caipu.fuliao'],
+                    image_url: "images/" + row['caipu.title'] + ".jpg",
+                    category: category,
+                    nutrition: nutrition2
+                };
+            });
+        }
+
+        function loadAndStoreRecipes(startPage, endPage) {
+            const loadPromises = [];
+            for (let page = startPage; page <= endPage; page++) {
+                loadPromises.push(loadCSV(page).then(parsedRecipes => {
+                    recipes.push(...parsedRecipes);
+                }));
+            }
+
+            Promise.all(loadPromises)
+                .then(() => {
+                    console.log('所有数据加载完毕');
+                    showw();
+                })
+                .catch(error => {
+                    console.error('加载数据时发生错误:', error);
+                });
+        }
+
+        loadAndStoreRecipes(1, 5);
+
+        function formatZuofa(zuofaText) {
+            let formattedText = '<br>' + zuofaText;
+            return formattedText.replace(/([。；])/g, '$1<br>');
+        }
+
+        function showw() {
+            const recipe = recipes.find(r => r.id == recipeId);
+
+            const recipeDetailContent = document.getElementById('recipe-detail-content');
+            recipeDetailContent.innerHTML = `
+                <h2>${recipe.title}</h2>
+                <img src="${recipe.image_url}" alt="${recipe.title}" class="recipe-image">
+            `;
+            const methodCard1 = document.createElement('div');
+            methodCard1.classList.add('method-card');
+            methodCard1.innerHTML = `
+                <div class="method-label">菜系</div>
+                <p><strong></strong>    ${formatZuofa(recipe.category)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard1);
+
+            const methodCard2 = document.createElement('div');
+            methodCard2.classList.add('method-card');
+            methodCard2.innerHTML = `
+                <div class="method-label">推荐餐时</div>
+                <p><strong></strong>    ${formatZuofa(recipe.time)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard2);
+
+            const methodCard3 = document.createElement('div');
+            methodCard3.classList.add('method-card');
+            methodCard3.innerHTML = `
+                <div class="method-label">口味</div>
+                <p><strong></strong>    ${formatZuofa(recipe.kouwei)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard3);
+
+            const methodCard4 = document.createElement('div');
+            methodCard4.classList.add('method-card');
+            methodCard4.innerHTML = `
+                <div class="method-label">烹饪方式</div>
+                <p><strong></strong>    ${formatZuofa(recipe.gongyi)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard4);
+
+            const methodCard5 = document.createElement('div');
+            methodCard5.classList.add('method-card');
+            methodCard5.innerHTML = `
+                <div class="method-label">忌口</div>
+                <p><strong></strong>    ${formatZuofa(recipe.xiangke_shiwu)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard5);
+
+            const methodCard6 = document.createElement('div');
+            methodCard6.classList.add('method-card');
+            methodCard6.innerHTML = `
+                <div class="method-label">主料</div>
+                <p><strong></strong>    ${formatZuofa(recipe.ingredients)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard6);
+
+            const methodCard = document.createElement('div');
+            methodCard.classList.add('method-card');
+            methodCard.innerHTML = `
+                <div class="method-label">做法</div>
+                <p><strong></strong>  ${formatZuofa(recipe.zuofa)}</p>
+            `;
+            recipeDetailContent.appendChild(methodCard);
+
+            const nutritionContainer = document.createElement('div');
+            nutritionContainer.id = 'nutrition-container';
+            nutritionContainer.innerHTML = `
+                <h3>营养成分</h3>
+                <div id="nutrition-cards"></div>
+            `;
+            recipeDetailContent.appendChild(nutritionContainer);
+
+            const nutritionCardsContainer = nutritionContainer.querySelector('#nutrition-cards');
+            const keyNutrients = ['能量', '蛋白质', '维生素', '碳水化合物', '脂肪', '胆固醇', '膳食纤维'];
+
+            keyNutrients.forEach(key => {
+                const nutrient = recipe.nutrition.find(item => item[key]);
+                if (nutrient) {
+                    const nutritionCard = document.createElement('div');
+                    nutritionCard.classList.add('nutrition-card');
+                    nutritionCard.innerHTML = `
+                        <div class="nutrition-key">${key}</div>
+                        <div class="nutrition-value">${nutrient[key]}</div>
+                    `;
+                    nutritionCardsContainer.appendChild(nutritionCard);
+                }
+            });
+            const getRandomArbitrary = (min, max) => Math.random() * (max - min) + min;
+            const backgroundImages = document.querySelectorAll('.background-image');
+            backgroundImages.forEach(bg => {
+                const start_x = getRandomArbitrary(-100, window.innerWidth + 100);
+                const start_y = getRandomArbitrary(-100, window.innerHeight + 100);
+                const mid_x1 = getRandomArbitrary(-100, window.innerWidth + 100);
+                const mid_y1 = getRandomArbitrary(-100, window.innerHeight + 100);
+                const mid_x2 = getRandomArbitrary(-100, window.innerWidth + 100);
+                const mid_y2 = getRandomArbitrary(-100, window.innerHeight + 100);
+                const mid_x3 = getRandomArbitrary(-100, window.innerWidth + 100);
+                const mid_y3 = getRandomArbitrary(-100, window.innerHeight + 100);
+                const end_x = getRandomArbitrary(-100, window.innerWidth + 100);
+                const end_y = getRandomArbitrary(-100, window.innerHeight + 100);
+                bg.style.setProperty('--start-x', `${start_x}px`);
+                bg.style.setProperty('--start-y', `${start_y}px`);
+                bg.style.setProperty('--mid-x1', `${mid_x1}px`);
+                bg.style.setProperty('--mid-y1', `${mid_y1}px`);
+                bg.style.setProperty('--mid-x2', `${mid_x2}px`);
+                bg.style.setProperty('--mid-y2', `${mid_y2}px`);
+                bg.style.setProperty('--mid-x3', `${mid_x3}px`);
+                bg.style.setProperty('--mid-y3', `${mid_y3}px`);
+                bg.style.setProperty('--end-x', `${end_x}px`);
+                bg.style.setProperty('--end-y', `${end_y}px`);
+            });
+        }
+    </script>
+</body>
+</html>
